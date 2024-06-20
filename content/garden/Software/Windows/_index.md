@@ -2,7 +2,7 @@
 title = "Windows"
 
 sort_by = "date"
-render = true
+
 template = "garden/garden-blog.html"
 page_template = "garden/garden-page.html"
 
