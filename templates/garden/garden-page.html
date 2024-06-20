@@ -5,6 +5,21 @@
     {{ page.title }}
     </h1>
 
+    {# ---------------- Breadcrumbs ------------------#}
+	<p>
+        {% if page.components is containing("garden") %}
+            {% set breadcrumb = page.components | slice(end=-1) | join(sep='/') %}
+            <a class = "breadcrumb" href="{{  "/" ~ breadcrumb}}">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 -2 24 24" stroke-width="2.5" stroke="currentColor" class="size-6" width="15">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
+    </svg>
+            {{page.components[1] | capitalize}} / {{page.components | slice(end=-1) | last | capitalize}} </a>
+            <span>/ {{page.title}}</span>            
+            <hr>
+        {% endif %}
+        </p>
+    {# ----------------------------------------- #}
+
     <p class="subtitle"><strong>{{ page.date }}</strong></p>
     {{ page.content | safe }}
 {% endblock content %}
