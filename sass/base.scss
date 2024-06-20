@@ -1,0 +1,46 @@
+* {
+    font-size: 40px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/* Header styling */
+header.site-header{
+    display: flex;
+
+	position: sticky;
+	top: 0;
+    margin: 0;
+
+    background-color: bisque;
+    justify-content: space-around;
+    padding: 20px;
+}
+.site-header nav a{
+    font-size: 1.5em;
+}
+
+.container {
+    padding: 20px;
+}
+
+.breadcrumb-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor" class="size-6" width="15"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg> ');
+    background-repeat: no-repeat;
+    background-size: contain;
+
+    background-position: left center;
+    padding-left: 6%;
+}
+
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid currentColor; /* creates the underline */
+    padding-bottom: 5px; /* adjusts the position of the underline */  
+}
