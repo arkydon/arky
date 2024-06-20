@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">
+     {{ section.title }}
+    </h1>
+
+    <ul>
+    <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+        {% for page in section.pages %}
+        <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <h1 class="notes category">Notes</h1>
+    <ul>
+        <li ><a href={{section.path ~ "/Notes/Now"}} >🐝 Now page</a> </li>
+        <li ><a href={{section.path ~ "/Notes/Mini%20Blog"}} >🗒️ Mini blog</a> </li>
+    </ul>
+    <hr>
+<h1 class="web category">Web</h1>
+    <ul>
+        <li ><a href={{section.path ~ "/Web/Links"}} >🔗 Links</a> </li>
+        <li ><a href={{section.path ~ "/Web/Blogroll"}} >🎲 Blogroll page</a> </li>
+    </ul>
+    <hr>
+<h1 class="media category">Media</h1>
+    <ul>
+        <li ><a href={{section.path ~ "/Media/Music"}} >🎵 Music </a> </li>
+    </ul>
+    <hr>
+<h1 class="software category">Software</h1>
+    <ul>
+        <li> <a href={{section.path ~ "/Software/Android"}} >📱 Android</a> </li>
+        <li> <a href={{section.path ~ "/Software/Windows"}} >💻 Windows</a> </li>
+    </ul>
+    <hr>
+
+{% endblock content %}
