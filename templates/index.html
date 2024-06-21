@@ -1,8 +1,20 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1 class="title"> Arky </h1>
-  <p>
-    Welcome to my website. Check out all my blogposts. Contact me at ..
-  </p>
+
+    {% set banner = resize_image(path="/static/banner.jpg", width=672, op="fit_width") %}
+    <img src="{{ banner.url }}" class="home-banner" alt="Arky's Digital Space."/>
+
+    <p>
+      Welcome to my corner of the internet. This is a space for me to share my thoughts, ideas, things I love, and cool stuff I find on the web.
+      Check out my blog posts, who I am, what I'm wasting time on and more in my digital home. My social media links are in <a href="arkydon.carrd.co">arkydon.carrd.co</a>
+    </p>
+
+    <h3>Recent Blog Posts :</h3>
+    {% set blog = get_section(path="blog/_index.md") %}
+    <ul>
+      {% for post in blog.pages | slice(end=3) %}
+        <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
 {% endblock content %}
