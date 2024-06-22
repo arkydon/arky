@@ -1,0 +1,40 @@
+.eleven h1 {
+    font-size:50px;
+    //text-align:center; 
+    line-height:1.5em; 
+    padding-bottom:45px; 
+    //font-family:"Playfair Display", serif; 
+    text-transform:uppercase;
+    //letter-spacing: 2px; 
+    color:#4c8ebf;
+    font-weight: 100;
+  }
+  
+  
+  .eleven h1:before {
+    position: absolute;
+    left: 0;
+    bottom: 170px;
+    width: 60%;
+    left:50%; margin-left:-30%;
+    height: 1px;
+    content: "";
+    background-color: #777; 
+    z-index: 4;
+  }
+  .eleven h1:after {
+    position:absolute;
+    width:40px; 
+    height:40px; 
+    left:50%; 
+    margin-left:-20px; 
+    bottom:152px;
+    content: '\00a7'; 
+    font-size:30px; 
+    line-height:40px; 
+    color:#777;
+    font-weight:400; z-index: 5;
+    display:block;
+    background-color:#e1eff7;
+  }
+  

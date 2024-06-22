@@ -8,6 +8,11 @@
     <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
         {% for page in section.pages %}
         <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+
+        {% if page.date %}
+            <div class="blog-page-date">{{ page.date | date(format=config.extra.date_format) }}</div>
+        {% endif %}
+
         {% endfor %}
     </ul>
 {% endblock content %}

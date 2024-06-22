@@ -5,6 +5,10 @@
     {{ page.title }}
     </h1>
 
-    <p class="subtitle"><strong>{{ page.date }}</strong></p>
+    {# About page doesn't have a date and will result in an error if not checked #}
+    {% if page.date %} 
+     <p class="blog-page-date">{{ page.date|date(format=config.extra.date_format) }}</p>
+    {%endif%}
+
     {{ page.content | safe }}
 {% endblock content %}
