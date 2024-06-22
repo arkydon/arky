@@ -1,12 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1 class="title">
-     {{ section.title }}
-    </h1>
-
     {# Breadcrumbs #}
-    <p>
+    <p class="bread-bar">
         {% set breadcrumb = section.components | slice(end=-1) | join(sep='/') %}
         <a class = "breadcrumb-icon" href="{{  "/" ~ section.components[0]}}"> 
             {{section.components[0] | capitalize}} 
@@ -15,6 +11,11 @@
         <hr>
     </p>
 
+    <h1 class="title">
+        {{ section.title }}
+       </h1>
+   
+   
     {# Show the content after the front matter #}
     {{section.content | safe}}
 
