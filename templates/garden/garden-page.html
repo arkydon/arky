@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+    <div class="panel">
     {# ---------------- Breadcrumbs ------------------#}
 	<p class="bread-bar">
     {% set breadcrumb = page.components | slice(end=-1) | join(sep='/') %}
@@ -19,4 +20,6 @@
 
     <p class="blog-page-date">{{ page.date |date(format=config.extra.date_format) }}</p>
     {{ page.content | safe }}
+
+    </div>
 {% endblock content %}

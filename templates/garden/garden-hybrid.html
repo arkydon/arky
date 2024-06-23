@@ -1,6 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
+    <div class="panel">
     {# Breadcrumbs #}
     <p class="bread-bar">
         {% set breadcrumb = section.components | slice(end=-1) | join(sep='/') %}
@@ -25,4 +26,5 @@
         <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
         {% endfor %}
     </ul>
+    </div>
 {% endblock content %}

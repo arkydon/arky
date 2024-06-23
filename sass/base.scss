@@ -8,14 +8,14 @@
 
 html {
     font-size: var(--main-font-size);
-    line-height: 35px;
+    line-height: 30px;
 }
 body {
     padding: 0;
     margin: 0;
 
     font-size: var(--main-font-size);
-    font-family: "Jost", "Roboto Condensed";
+    font-family: "Barlow Semi Condensed Regular", "Roboto Condensed";
     color:#2F4858;
 
     background-color: #f3f3f387;
@@ -116,11 +116,11 @@ a {
     border-bottom: 1px solid currentColor; /* creates the underline */
     padding-bottom: 5px; /* adjusts the position of the underline */  
 
-    color:#855944;
+    color:#915e7f;
 }
 
 h1,h2,h3,h4,h5,h6{
-    color:#9d8e8b;
+    color:#915e7f;
     font-weight: 400;
     
     //margin-block: 5px;
