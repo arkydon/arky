@@ -1,12 +1,12 @@
 .eleven h1 {
-    font-size:50px;
+    font-size:25px;
     //text-align:center; 
     line-height:1.5em; 
-    padding-bottom:45px; 
+    padding-bottom:20px; 
     //font-family:"Playfair Display", serif; 
     text-transform:uppercase;
     //letter-spacing: 2px; 
-    color:#4c8ebf;
+    color:#f7f7f7;
     font-weight: 400;
   }
   
@@ -14,12 +14,12 @@
   .eleven h1:before {
     position: absolute;
     left: 0;
-    bottom: 150px;
+    bottom: 80px;
     width: 60%;
     left:50%; margin-left:-30%;
     height: 1px;
     content: "";
-    background-color: #777; 
+    background-color: #f7f7f7; 
     z-index: 4;
   }
   .eleven h1:after {
@@ -28,7 +28,7 @@
     height:40px; 
     left:50%; 
     margin-left:-20px; 
-    bottom:134px;
+    bottom:60px;
     content: '\00a7'; 
     font-size:30px; 
     line-height:40px; 
@@ -36,6 +36,6 @@
     font-weight:400; 
     z-index: 5;
     display:block;
-    background-color:#e1eff7;
+    background-color:#9d8e8b;
   }
   

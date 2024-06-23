@@ -17,6 +17,6 @@
     
     
 
-    <p class="subtitle"><strong>{{ page.date }}</strong></p>
+    <p class="blog-page-date">{{ page.date |date(format=config.extra.date_format) }}</p>
     {{ page.content | safe }}
 {% endblock content %}
