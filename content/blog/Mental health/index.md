@@ -6,7 +6,7 @@ date = 2024-01-01
 
 <!-- more -->
 
-Some people have fond memories of their childhood while some don't. I belong to the second category. My childhood sucks because I was struggling with mental health issues, which wasn't anyone's fault, but school and religion was responsible for making things worse. 
+{{ img(path="@/blog/mental health/dislike.png", class="graphik") }} Some people have fond memories of their childhood while some don't. I belong to the second category. My childhood sucks because I was struggling with mental health issues, which wasn't anyone's fault, but school and religion was responsible for making things worse. 
 
 School made me feel like shit because I felt like I had to behave all the time, get good grades, and never mess up, which wouldn't be so terrible if I didn't have this irrational fear that I was going to accidentally break some rule. It felt like I was constantly walking on eggshells. I would second guess everything I was doing and it made me very depressed. On the outside, I looked like a normal child, but inside I was a wreck.\
 

@@ -3,7 +3,7 @@ title = "Writing garbage everyday"
 date = 2024-04-02
 +++
 
-I've been inspired to build a digital space and write blog notes for my own personal gain and enjoyment. I have a lot of ideas in my head about different kinds of things I want to document and opinions I want to jot down, but every time I actually start to write, I can't seem to find the right words and sentences to express what I'm thinking.
+{{ img(path="@/blog/Writing garbage everyday/trash.png", class="graphik") }} I've been inspired to build a digital space and write blog notes for my own personal gain and enjoyment. I have a lot of ideas in my head about different kinds of things I want to document and opinions I want to jot down, but every time I actually start to write, I can't seem to find the right words and sentences to express what I'm thinking.
 
 I'm not a writer and I've also always had a problem trying to convert my thoughts into words. Plus, spending a couple of years barely talking to anyone has made things even worse. It's been frustrating.
  
@@ -15,7 +15,7 @@ So this is the first day of me starting a routine of writing at least one paragr
 Notes:
 
 [^1]: 
-  [Write for yourself](https://samhawken.bearblog.dev/write-for-yourself/)  
+  [Write for yourself](https://samhawken.bearblog.dev/write-for-yourself/)\
   [Blog What You Like ❤️](https://brandons-journal.com/post/blog-what-you-like)  
   [Your Own Corner of the Internet](https://sheepdev.xyz/blog/your-own-corner-of-the-internet/)
 
