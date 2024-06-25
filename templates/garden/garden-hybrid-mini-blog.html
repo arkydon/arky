@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="panel">
+        {# Breadcrumbs #}
+        <p class="bread-bar">
+            {% set breadcrumb = section.components | slice(end=-1) | join(sep='/') %}
+            <a class = "breadcrumb-icon" href="{{  "/" ~ section.components[0]}}"> 
+                {{section.components[0] | capitalize}} 
+            </a>         
+            <span > / {{section.components[1]|capitalize}} / {{section.components|last|capitalize}}</span>
+            <hr>
+        </p>
+
+        <h1 class="title">
+            {{ section.title }}
+        </h1>
+    
+        <div class="mini-blog-content">
+        {# Show the content after the front matter #}
+        {{section.content | safe}}
+        </div>
+        
+        <ul>
+        <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
+            {% for page in section.pages %}
+            <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>
+            {% endfor %}
+        </ul>
+    </div>
+{% endblock content %}

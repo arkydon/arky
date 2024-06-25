@@ -20,7 +20,7 @@
     {# Show the content after the front matter #}
     {{section.content | safe}}
 
-    <ul>
+    <ul class="blog-listing">
     <!-- If you are using pagination, section.pages will be empty. You need to use the paginator object -->  
         {% for page in section.pages %}
         <li><a href="{{ page.permalink | safe }}">{{ page.title }}</a></li>

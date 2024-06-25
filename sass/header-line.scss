@@ -1,0 +1,27 @@
+.line-with-emoji {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    margin-bottom: 5px;
+    margin-top: -10px;
+  }
+  
+  .line-with-emoji:before,
+  .line-with-emoji:after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #f1f2f3;
+  }
+  
+  .line-with-emoji:before {
+    margin-right: .5em;
+    margin-left: 45px;
+  }
+  
+  .line-with-emoji:after {
+    margin-left: .5em;
+    margin-right:45px;
+  }
+  
