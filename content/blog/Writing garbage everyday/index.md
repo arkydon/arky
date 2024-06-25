@@ -15,8 +15,8 @@ So this is the first day of me starting a routine of writing at least one paragr
 Notes:
 
 [^1]: 
-  [Write for yourself](https://samhawken.bearblog.dev/write-for-yourself/)\
-  [Blog What You Like ❤️](https://brandons-journal.com/post/blog-what-you-like)\
+  [Write for yourself](https://samhawken.bearblog.dev/write-for-yourself/)  
+  [Blog What You Like ❤️](https://brandons-journal.com/post/blog-what-you-like)  
   [Your Own Corner of the Internet](https://sheepdev.xyz/blog/your-own-corner-of-the-internet/)
 
 [^2]:
