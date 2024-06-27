@@ -22,7 +22,6 @@ So, I decided to make the entire website again from scratch without using any th
 - Make a mascot for the website.
 - Tweak dark mode.
 - Implement *markdown shortcodes*.
-------------
 
 <!--
 
