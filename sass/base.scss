@@ -1,8 +1,8 @@
 @use "variables.scss";
 @use "fonts.scss";
-//@use "widescreen.scss";
 @use "header-line.scss";
-@use "dark-theme.scss";
+@use "garden.scss";
+
 
 html {
     font-size: var(--main-font-size);
@@ -23,6 +23,7 @@ body {
 /* Add space around everything except header */
 section.section {
     padding: 25px;
+    padding-block: 30px;
 }
 /* Header styling */
 header.site-header{
@@ -55,11 +56,14 @@ nav {
     font-size: 35px;
     border-bottom: none;
 }
+h1.title-header {
+    margin-bottom: 25px;
+}
 
 .breadcrumb-icon {
     width: 24px;
     height: 24px;
-    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="rgb(177 54 54)" class="size-6" width="15"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg> ');
+    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 -1 24 24" stroke-width="2" stroke="rgb(76 135 139)" class="size-6" width="15"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg> ');
     background-repeat: no-repeat;
     background-size: 20px;
 
@@ -81,7 +85,7 @@ p.bread-bar{
 a {
     text-decoration: none;
     border-bottom: 2px dashed currentColor; /* creates the underline */
-    padding-bottom: 4px; /* adjusts the position of the underline */  
+    padding-bottom: 2px; /* adjusts the position of the underline */  
 
     color:var(--link-color);
 }
@@ -92,16 +96,20 @@ a:active {
 h1,h2,h3,h4,h5,h6{
     color:var(--h-colors);
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 footer {
     text-align: center;
     font-size: 18px;
-    color: grey;
-    padding-block: 30px;
+    color: #fbfbfb;
+    padding-block: 22px;
 }
 footer p {
     margin: 0px;
+}
+footer a {
+    color: #fbfbfb;
 }
 
 /* Style the date for each listing item in Blog section */
@@ -113,7 +121,7 @@ footer p {
 .blog-page-article-date {
     color: #8f8f8f;
     font-size: 14px;
-    margin-block-start: -20px;
+    margin-block-start: 0;
 }
 
 /* Style all bullet icons*/
@@ -123,10 +131,9 @@ ul {
 }
 ul li {
     //flame icon list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(183 83 77)" d="M153.6 29.9l16-21.3C173.6 3.2 180 0 186.7 0C198.4 0 208 9.6 208 21.3V43.5c0 13.1 5.4 25.7 14.9 34.7L307.6 159C356.4 205.6 384 270.2 384 337.7C384 434 306 512 209.7 512H192C86 512 0 426 0 320v-3.8c0-48.8 19.4-95.6 53.9-130.1l3.5-3.5c4.2-4.2 10-6.6 16-6.6C85.9 176 96 186.1 96 198.6V288c0 35.3 28.7 64 64 64s64-28.7 64-64v-3.9c0-18-7.2-35.3-19.9-48l-38.6-38.6c-24-24-37.5-56.7-37.5-90.7c0-27.7 9-54.8 25.6-76.9z"/></svg>');
-    list-style-image: url('data:image/svg+xml,<svg class="bullet-icon-color" xmlns="http://www.w3.org/2000/svg" height="12" width="13.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(213 179 138 / 63%)" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>');
-    //padding: 5px; /* Adjust as needed */
-    //padding-bottom: 15px;
+    list-style-image: url('data:image/svg+xml,<svg class="bullet-icon-color" xmlns="http://www.w3.org/2000/svg" height="12" width="13.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(191 100 89)" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>');
     padding-left: 5px;
+    padding-bottom: 10px;
 }
 ul li li {
     font-size: 0.9em;
@@ -167,19 +174,8 @@ img.banner {
     margin-bottom: -7px;
 }
 
-
-.panel{
-    //background-color: var(--panel-color);
-    //padding: 20px;
-    //border-radius: 5px;
-    //margin-block: 8px;
-    //padding-top: 1px;
-
-    //box-shadow: 0px 0px 8px 0px rgba(145, 145, 145, .5294117647);
-}
 .wavy {
     /* Wavy design test*/
-    //margin-inline: -16px;
     padding-block: 40px;
     --mask: radial-gradient(44.72px at 50% 60px,#000 99%,#0000 101%) calc(50% - 40px) 0/80px 51% repeat-x, radial-gradient(44.72px at 50% -40px,#0000 99%,#000 101%) 50% 20px/80px calc(51% - 20px) repeat-x, radial-gradient(44.72px at 50% calc(100% - 60px),#000 99%,#0000 101%) 50% 100%/80px 51% repeat-x, radial-gradient(44.72px at 50% calc(100% + 40px),#0000 99%,#000 101%) calc(50% - 40px) calc(100% - 20px)/80px calc(51% - 20px) repeat-x;
     -webkit-mask: var(--mask);
@@ -187,14 +183,27 @@ img.banner {
     margin-block: -20px;
     background-color: var(--wave-color);
 }
+/* HTML: <div class="wavy-line"></div> */
+hr {
+    --s: 3px;
+    --b: 2px;
+    --m: 0.4;
+    background: var(--hr-color);
+    --R: calc(var(--s)*sqrt(var(--m)*var(--m) + 1) + var(--b)/2);
+    height: calc(2* var(--R));
+    width: 100%;
+    --_g: #0000 calc(99% - var(--b)), #000 calc(101% - var(--b)) 99%, #0000 101%;
+    mask: radial-gradient(var(--R) at left 50% bottom calc(-1* var(--m)* var(--s)), var(--_g)) calc(50% - 2* var(--s)) calc(50% - var(--s) / 2 - var(--b) / 2) / calc(4* var(--s)) calc(var(--s) + var(--b)) repeat-x, radial-gradient(var(--R) at left 50% top calc(-1* var(--m)* var(--s)), var(--_g)) 50% calc(50% + var(--s) / 2 + var(--b) / 2) / calc(4* var(--s)) calc(var(--s) + var(--b)) repeat-x;
+  }
+
 strong {
     font-weight: 500;
 }
 blockquote {
-    //background-color: #d2d4db;
     padding-inline: 14px;
     margin: 5px;
     border-left: 2px solid #d58181;
+    font-size: smaller;
 }
 pre {
     background: #cbe9d2;
@@ -209,35 +218,8 @@ pre {
     font-size: medium;    
 }
 
-/* Garden section styling*/
-.garden-section ul{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.garden-section ul li {
-    list-style-image: "H";
-    list-style: circle;
-    /* padding-left: 26px; */
-}
-
-.mini-blog-content p {
-    padding-left: 30px;
-    border: 2px solid #d385855c;
-    background-color: #f3d7c4;
-    border-radius: 5px;
-    padding: 8px;
-}
-.mini-blog-content h3 {
-  margin: 0 0 5px 0;
-  font-size: 18px;
-  color: #8c069b;
-  font-weight: normal;
-}
-
-
-
-
-@media (min-width:900px){
+/* Widescreen Styling*/
+@media (min-width:600px){
     body {
         //padding-inline: 180px;
         display:flex;
@@ -252,12 +234,12 @@ pre {
         flex-direction: column;
         align-items: flex-start;
         padding-top: 100px;
-        padding-left: 44px;
+        //padding-left: 44px;
     }
     header.site-header{
-        margin: 7px;
-        border-radius: 5px;
-
+        margin-top: 7px;
+        margin-inline: -15px;
+        /* border-radius: 5px; */
     }
     .site-header nav a {
         font-size: 25px;
@@ -290,28 +272,26 @@ pre {
         display: grid;
         grid-template-columns: auto;
     }
+    .garden-section .panel {
+        background: #e9e2e1;
+        border-radius: 4px;
+        padding-inline: 20px;
+        padding-block: 1px;
+        margin-block: 12px;        
+    }
+    @media (prefers-color-scheme: dark) {
+        .garden-section .panel { 
+            background: #3d3241;
+        }
+    } 
+    footer {
+        display: none;
+    }
 }
 
 /* ----------- Dark Mode -------------- */
 @media (prefers-color-scheme: dark) {
-    body {
-        //background-color: #4b3a24;
-        //color: #f7f7f7;
-    }
-    .panel {
-        //background-color: rgba(6,6,6,.59);
-    }
-    a {
-        //color: #a5dfff;        
-    }
-    header.site-header{
-        //background-color: rgba(6,6,6,.59);
-        //box-shadow: 0px 0px 8px 0px rgb(57 56 56 / 53%);
-    }
-    .site-header nav a, .title-header {
-        //color: #fbdfa3;
-    }
-    h1, h2, h3, h4, h5, h6 {
-        //color: #c96666;
+    ul li {
+        list-style-image: url('data:image/svg+xml,<svg class="bullet-icon-color" xmlns="http://www.w3.org/2000/svg" height="12" width="13.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(191 100 89)" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>');
     }
 }
