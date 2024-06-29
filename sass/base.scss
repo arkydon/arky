@@ -49,7 +49,6 @@ nav {
     padding-inline: 20px;
     padding-bottom: 20px;
 }
-
 .title-header a {
     color: var(--header-title-color);
     text-transform: uppercase;
@@ -90,9 +89,8 @@ a {
     color:var(--link-color);
 }
 a:active {
-    color: rgb(228, 111, 57);
+    color: rgb(136, 219, 157);
 }
-
 h1,h2,h3,h4,h5,h6{
     color:var(--h-colors);
     font-weight: 400;
@@ -206,8 +204,8 @@ blockquote {
     font-size: smaller;
 }
 pre {
-    background: #cbe9d2;
-    border-radius: 5px;
+    background: #c0dfb2;
+    border-radius: 4px;
     border: 1px solid rgb(79 207 69 / 32%);
     overflow: scroll;
     padding: 14px;
@@ -273,7 +271,7 @@ pre {
         grid-template-columns: auto;
     }
     .garden-section .panel {
-        background: #e9e2e1;
+        background: #c0dfb2;
         border-radius: 4px;
         padding-inline: 20px;
         padding-block: 1px;
