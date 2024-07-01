@@ -1,0 +1,18 @@
+{% set images = load_data(path=path) %}
+<div class="gallery">
+    {% for image in images %}
+        <a href="{{ image.full }}" class="gallery-image" data-thumbnail="{{ image.thumb }}">
+            <img src="{{ image.thumb }}" alt="{{ image.full | split(pat='/') | last }}">
+        </a>
+    {% endfor %}
+</div>
+
+<script>
+    new SimpleLightbox('.gallery a', {
+        /* options */
+        captionsData: 'alt',
+        captionDelay: 250,
+        animationSpeed: 250
+    });
+</script>
+

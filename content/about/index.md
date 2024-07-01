@@ -16,7 +16,7 @@ template = "blog-page.html"
 
 **What I like**
 * *Astronomy*. The starry night sky 🌌, comets, meteors 🌠, solar activity ☀️.
-* Minimal *pretty websites* that aren't slow.
+* Beautiful websites that aren't slow.
 * *Sunsets* 🌄.
 * Cool *rocks* 🪨.
 * *Organising* things.
@@ -40,8 +40,8 @@ template = "blog-page.html"
 * **Colours** : Sepia, Peach Fuzz, Salmon.
 * **Fonts**: Jost, Jetbrains Mono.
 * **Emojis**: 🍂🍁
-* **Food** : Rice dishes, Egg dishes, Soups
+* **Food** : Rice dishes, Egg dishes, Soups, Burgers.
 * **Seasons** : Autumn🍂 and Summer☀️. Winter when it's Christmas.
-* **Singers** : Tove Lo, Jeremy Zucker, Troye.
+* **Singers** : Tove Lo, Jeremy Zucker, Troye, Sabrina Carpenter, Paramore, Linkin Park.
 * **TV** : Interstellar, HIMYM, Wandavision, Melancholia, The Originals, ...
 * **Bible Translation**: NLT
