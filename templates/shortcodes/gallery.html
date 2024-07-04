@@ -1,18 +1,22 @@
 {% set images = load_data(path=path) %}
-<div class="gallery">
+<div class="gallery" id="lightgallery">
     {% for image in images %}
-        <a href="{{ image.full }}" class="gallery-image" data-thumbnail="{{ image.thumb }}">
+        <a href="{{ image.full }}" class="gallery-image">
             <img src="{{ image.thumb }}" alt="{{ image.full | split(pat='/') | last }}">
         </a>
     {% endfor %}
 </div>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/lightgallery.min.js" integrity="sha512-jEJ0OA9fwz5wUn6rVfGhAXiiCSGrjYCwtQRUwI/wRGEuWRZxrnxoeDoNc+Pnhx8qwKVHs2BRQrVR9RE6T4UHBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- lightgallery plugins -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/thumbnail/lg-thumbnail.min.js" integrity="sha512-VBbe8aA3uiK90EUKJnZ4iEs0lKXRhzaAXL8CIHWYReUwULzxkOSxlNixn41OLdX0R1KNP23/s76YPyeRhE6P+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/plugins/zoom/lg-zoom.min.js" integrity="sha512-BLW2Jrofiqm6m7JhkQDIh2olT0EBI58+hIL/AXWvo8gOXKmsNlU6myJyEkTy6rOAAZjn0032FRk8sl9RgXPYIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 <script>
-    new SimpleLightbox('.gallery a', {
-        /* options */
-        captionsData: 'alt',
-        captionDelay: 250,
-        animationSpeed: 250
+    lightGallery(document.getElementById('lightgallery'),{
+        plugins: [lgZoom, lgThumbnail],
+        showCloseIcon: true,
+        showZoomInOutIcons: false,
+        mobileSettings: { controls: false, showCloseIcon: true, download: true, },
     });
 </script>
-

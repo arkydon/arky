@@ -7,5 +7,4 @@ Irridescent clouds.
 
 <!-- more -->
 
------------------
 {{ gallery(path="garden/media/photos/irridescence/gallery_images.json") }}
