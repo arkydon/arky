@@ -4,9 +4,11 @@ render = true
 template = "garden/garden-hybrid-mini-blog.html"
 +++
 
+<!--
  {{ img(path="@/Garden/Notes/Mini Blog/pencil.png", class="pict", alt="It's me!") }}
 
 ----
+-->
 
 ### Random
 I have a *'There's something seriously wrong in my head'* realisation a couple of times a day.

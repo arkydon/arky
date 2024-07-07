@@ -3,9 +3,12 @@ title = "Cool blogs around the web"
 render = true
 template = "garden/garden-hybrid.html"
 +++
- {{ img(path="@/garden/Web/blogroll/blogroll.png", class="pict", alt="It's me!") }}
+ <!-- 
+ {{ img(path="@/garden/Web/blogroll/blogroll.png", class="pict", alt="It's me!") }} 
+ ----
+ -->
 
-----
+
 Table of Contents  
 1. [Beautiful blogs](#beautiful-blogs)
 2. [General blogs](#general-blogs)

@@ -1,10 +1,12 @@
 +++
-title = "What I'm up to now"
+title = "What I'm doing"
 render = true
 template = "garden/garden-hybrid.html"
 +++
 
+<!--
  {{ img(path="@/garden/notes/now/now.png", class="pict", alt="It's me!") }}
+-->
 
 #### Currently
 * Finished making my website and migrating all the articles from my old blog.
