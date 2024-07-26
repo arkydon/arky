@@ -1,20 +1,37 @@
 :root {
-    --main-font-size: 20px;
-    --main-font-height: 32px;
+    --main-font-size: 19px;
+    --main-font-height: 35px;
 
-    --body-color: #d0dedf;
-    --body-font-color: #416a83;
-    --panel-color: rgb(248 251 248 / 81%);
-    --link-color:#5c95b7;
+    --body-color: #ffffff;
+    --body-font-color: #383838;
+    --panel-color: rgba(37, 43, 37, 0.81);
+    --link-color:rgb(65 107 153);
 
-    --nav-link-color: #5c95b7;
-    --header-title-color: #5c95b7;
-    --header-line-color: #5c95b7;
-    --header-icon-fill-color: #5c95b7;
+    --title-header-background-color: #ffffff00;
+    --header-background-color: #eeeeee;//#f0f0f0;
+    --nav-header-background-color:#ffffff00;// #f9f9f9;
 
-    --wave-color: #eef5f7;
-    --h-colors: #b75c5c;
-    --hr-color: #5c95b7;
+    --nav-link-color: var(--link-color);
+    --header-title-color: var(--link-color);
+    --header-line-color: #454545;
+    --header-icon-fill-color: #454545;
+
+    --wave-color: #ffffff;
+    --h-colors: var(--color-1);
+    --hr-color: #454444;
+
+    --color-1: #ff7070;
+    --color-2: var(--color-1);
+    --color-3: var(--color-1);
+    --color-4: var(--color-1);
+    --color-5: var(--color-1);
+
+    // Multi colour title Header Colors
+    /* --color-1: #186cb8;
+    --color-2: #2a9a9f;
+    --color-3: #f1b211;
+    --color-4: #e83611;
+    --color-5: #f9002f;*/
 }
 
 @media (prefers-color-scheme: dark) {

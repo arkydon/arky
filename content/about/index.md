@@ -23,8 +23,7 @@ template = "blog-page.html"
 * *Open World* games.
 
 **What I don't like** 
-* Getting wet in the rain ⛈️.
-* People who are quick to judge, fake nice, have no boundaries.
+* Getting wet in the rain.
 * Small talk.
 * Sports.
 * Stan wars. 

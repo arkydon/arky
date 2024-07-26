@@ -11,7 +11,7 @@
     
     <div class="panel">          
       <p>
-        Hello and welcome to my corner of the internet! This is a space for me to share my thoughts, ideas, things I love, and cool stuff I find on the web.  </br></br> <img style="width:60px; float:left;padding-right: 5px;padding-bottom: 2px;" src="bunny.png">
+        Welcome to my corner of the internet! This is a space for me to share my thoughts, ideas, things I love, and cool stuff I find on the web.  </br></br> <img style="width:60px; float:left;padding-right: 5px;padding-bottom: 2px;" src="bunny.png">
         Check out my blog posts, who I am, what I'm wasting time on and more in my digital home. My social media links are in <a href="https://arkydon.carrd.co">arkydon.carrd.co</a>
       </p>
     </div>
@@ -19,7 +19,7 @@
     <div class="panel">
       <h3>Recent Blog Posts :</h3>
       {% set blog = get_section(path="blog/_index.md") %}
-      <ul class="blog-listing">
+      <ul class="homepage-blog-listing">
         {% for post in blog.pages | slice(end=3) %}
           <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
         {% endfor %}

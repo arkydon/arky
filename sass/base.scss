@@ -1,7 +1,7 @@
 @use "variables.scss";
-@use "fonts.scss";
-@use "Jost.scss";
-@use "firasansc.scss";
+@use "fonts/barlowc.scss";
+@use "fonts/Jost.scss";
+@use "fonts/firasansc.scss";
 @use "header-line.scss";
 @use "garden.scss";
 
@@ -15,31 +15,31 @@ body {
     margin: 0;
 
     font-size: var(--main-font-size);
-    font-family: "Fira Sans Condensed Regular", "Barlow Semi Condensed Regular", "Roboto Condensed";
+    font-family: "Fira Sans Condensed Regular", "Barlow Semi Condensed Regular", "Roboto Condensed", "Arial";
     color:var(--body-font-color);
 
-    //background-color: var(--body-color);
-    background-image: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
-    background-attachment: fixed;
+    background-color: var(--body-color);
+    //background-image: linear-gradient(to top, #dadddf 0%, #eaeaea 100%);
+    //background-attachment: fixed;
 }
 
 /* Add space around everything except header */
 section.section {
-    padding: 25px;
-    padding-block: 30px;
-    min-height: 90vh;  // Extend webpage to full screen height
+    padding-inline: 22px;
+    //padding-block: 0px;
+    min-height: 90vh;  // Extend section to full mobile screen height
 }
 /* Header styling */
 header.site-header{
-    display:block;
-	position: sticky;
-    padding-block: 15px;
-    padding-block-start: 5px;
+    display: block;
+    position: sticky;
     text-align: center;
+    background-color: var(--header-background-color);
+    //box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .site-header nav a{
     text-decoration: none;
-    font-size: 23px;
+    font-size: 21px;
     color: var(--nav-link-color);
     border-bottom: none; /* Removes the underline */
     text-transform: lowercase;
@@ -49,19 +49,40 @@ header.site-header{
 }
 /* Arrange nav items with space between them*/
 nav {
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    padding-inline: 25px;
-    padding-bottom: 20px;
+    padding-inline: 27px;
+    padding-block-end: 50px;
+    background-color: var(--nav-header-background-color);
 }
+span.star {
+    margin: 0px 0px;
+    color: var(--color-1);
+    // font-size: 13px;
+}
+
 .title-header a {
     color: var(--header-title-color);
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 36px;
     border-bottom: none;
+
+    font-weight: bolder;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    margin: auto;
+    text-transform: uppercase;
+    background: linear-gradient(219deg, var(--color-1) 19%, transparent 19%, transparent 20%, var(--color-2) 20%, var(--color-2) 39%, transparent 39%, transparent 40%, var(--color-3) 40%, var(--color-3) 59%, transparent 59%, transparent 60%, var(--color-4) 60%, var(--color-4) 79%, transparent 79%, transparent 80%, var(--color-5) 80%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
 }
 h1.title-header {
-    margin-bottom: 17px;
+    background-color: var(--title-header-background-color);
+    padding-block-start: 35px;
+    padding-block-end: 25px;
+    margin-top: 0;
 }
 
 .breadcrumb-icon {
@@ -76,21 +97,18 @@ h1.title-header {
     border-bottom: none;
     padding-top: 0%;
 }
-p.bread-bar{
-    //padding-bottom: 20px;
-    color: darkgrey;    
+
+/*p.bread-bar{
+    color: darkgrey;
     white-space: nowrap;
     overflow: hidden;
-    font-size: 0.88em;
-    
-    /* Styling breadcrumb */
-    background-color: #ccd4db45;
-    border-radius: 20px;
+    font-size: 0.8em;
+    background-color: rgba(204, 212, 219, .2705882353);
     padding-inline: 15px;
     padding-block: 5px;
-    margin-inline: -5px;
-}
-
+    margin-inline: -25px;
+    margin-top: 0;
+}*/
 /*  Style all links*/
 a {
     text-decoration: none;
@@ -102,25 +120,29 @@ a {
 a:active {
     color: rgb(171, 207, 130);
 }
+
 h1,h2,h3,h4,h5,h6{
     color:var(--h-colors);
-    font-weight: 400;
+    font-weight: 700;
     margin-bottom: 0;
 
-    font-family: "Barlow Semi Condensed Medium", "Barlow Semi Condensed Regular", "Jost";
+    font-family: "Fira Sans Condensed Light", "Barlow Semi Condensed Medium", "Barlow Semi Condensed Regular", "Jost";
+}
+h1.title {
+    font-size: 1.1em;
 }
 
 footer {
     text-align: center;
     font-size: 18px;
-    color: #5c95b7;
+    color: var(--header-title-color);
     padding-block: 22px;
 }
 footer p {
     margin: 0px;
 }
 footer a {
-    color: #5c95b7;
+    color: var(--header-title-color);
 }
 
 /* Style the date for each listing item in Blog section */
@@ -152,6 +174,9 @@ ul li li {
 ul.blog-listing li{ // Add a bottom space to all blog listings in BLOG and GARDEN 
     padding-bottom: 15px;
 }
+ul.homepage-blog-listing {
+    margin-top: 10px;
+}
 
 /* Styling for unordered lists*/
 ol {
@@ -162,10 +187,11 @@ ol li {
 }
 
 hr {
-    border-color: #a9c2d1;
-    border-style: solid;
-    /* border-width: 0.4px; */
-    /* font-size: 12px; */
+    /* border-color: var(--hr-color); */
+    /* border-style: solid; */
+    //border: 0;
+    //height: 1px;
+    //background-image: linear-gradient(to right, #f0f0f0, var(--hr-color), #f0f0f0);
 }
 
 /* Image styling*/
@@ -211,19 +237,14 @@ img.banner {
     background-color: var(--wave-color);
 }
 
-/*
-hr {
-    --s: 2px;
-    --b: 1px;
-    --m: 0.4;
-    background: var(--hr-color);
-    --R: calc(var(--s)*sqrt(var(--m)*var(--m) + 1) + var(--b)/2);
-    height: calc(2* var(--R));
-    width: 100%;
-    --_g: #0000 calc(99% - var(--b)), #000 calc(101% - var(--b)) 99%, #0000 101%;
-    mask: radial-gradient(var(--R) at left 50% bottom calc(-1* var(--m)* var(--s)), var(--_g)) calc(50% - 2* var(--s)) calc(50% - var(--s) / 2 - var(--b) / 2) / calc(4* var(--s)) calc(var(--s) + var(--b)) repeat-x, radial-gradient(var(--R) at left 50% top calc(-1* var(--m)* var(--s)), var(--_g)) 50% calc(50% + var(--s) / 2 + var(--b) / 2) / calc(4* var(--s)) calc(var(--s) + var(--b)) repeat-x;
-  }
-*/
+.wavy-border{
+    --mask:
+    radial-gradient(33.54px at 50% calc(100% - 45px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
+    radial-gradient(33.54px at 50% calc(100% + 30px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
+  -webkit-mask: var(--mask);
+          mask: var(--mask);
+}
+
 strong {
     font-weight: 500;
 }
@@ -234,9 +255,9 @@ blockquote {
     font-size: smaller;
 }
 pre {
-    background: #c0dfb2;
+    background: #f1f1f3;
     border-radius: 4px;
-    border: 1px solid rgb(79 207 69 / 32%);
+    /* border: 1px solid rgba(79, 207, 69, .32); */
     overflow: scroll;
     padding: 14px;
     font-size: medium;
@@ -246,6 +267,15 @@ pre {
     font-size: medium;    
 }
 
+.panel{
+    //background-color: #f9f7f7;
+    //padding-inline: 23px;
+    //padding-block: 1px;
+    //border-radius: 4px;
+    //margin-block-end: 16px;
+    //font-size: 18px;
+    //box-shadow: rgba(0, 0, 0, .16) 0px 2px 4px;    
+}
 /* Widescreen Styling*/
 @media (min-width:600px){
     body {
