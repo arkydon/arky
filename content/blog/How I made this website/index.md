@@ -12,8 +12,6 @@ So, I decided to make the entire website again from scratch without using any th
 
 **Hosting**: The website is hosted in [Cloudflare Pages](https://pages.cloudflare.com/), which is free and also provides a free ".pages.dev" custom domain.
 
-**Banner**: The banner was AI generated with Ideogram.ai and expanded with fusionbrain.
-
 **Graphics**: The favicon and various graphics were taken from [Flaticon](https://www.flaticon.com/), from the icon and sticker packs made by [Darius Dan](https://www.flaticon.com/authors/darius-dan)
 
  Planned: 

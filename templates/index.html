@@ -21,7 +21,12 @@
       {% set blog = get_section(path="blog/_index.md") %}
       <ul class="homepage-blog-listing">
         {% for post in blog.pages | slice(end=3) %}
-          <li><a href="{{ post.permalink }}">{{ post.title }}</a></li>
+          <li>
+            <a href="{{ post.permalink }}">{{ post.title }}</a>
+            {% if post.date %}
+            <div class="blog-page-date">{{ post.date | date(format=config.extra.date_format) }}</div>
+        {% endif %}
+          </li>
         {% endfor %}
       </ul>
     </div>
