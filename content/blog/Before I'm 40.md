@@ -1,15 +1,18 @@
 +++
 title = "Things to do and see before I'm 40"
 date = 2024-03-27
+
+[extra]
+og_description = "Things to do and see before I'm 40"
 +++
 Inspired by this [blog article](https://www.jemjabella.co.uk/30-things-before-im-thirty/) I wrote a list of the things I want to do and see before I'm 40.
 
 1. See the aurora borealis.\
-	I don't want to travel I just want to see them from Shillong. That is something that is possible but if it does then we could be in big trouble [screwed](https://www.space.com/the-carrington-event).
+	I just want to see them from Shillong even though I know if it does become visible here then we could be in big [trouble](https://www.space.com/the-carrington-event).
 
 2. Find another fossil.
 
-3. Fall in love. (yeah right)
+3. Fall in love. (LOL)
 
 4. Have a collection of cool rocks.
 

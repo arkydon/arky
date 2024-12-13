@@ -1,5 +1,5 @@
 :root {
-    --main-font-size: 18px;
+    --main-font-size: 17px;
     --main-font-height: 30px;
 
     --title-header-size: 40px;
@@ -10,7 +10,7 @@
     --body-color: #ffffff;
     --body-font-color: #664848;//#393939;
     --panel-color: rgba(37, 43, 37, 0.81);
-    --link-color:var(--body-font-color);//rgb(214,101,101);//rgb(65 107 153);
+    --link-color:#3688d0; //var(--body-font-color);
 
     --title-header-background-color: #ffeee100;
     --header-background-color:#ffffff00;//#f3f3f3;// #eeeeee;//#f0f0f0;
@@ -49,7 +49,7 @@
 
         --header-background-color: #443a49;//#f0f0f0;
         //--nav-link-color: #e5d1ded6;
-        --header-title-color: #e5d1ded6;
+        --header-title-color: #d1dce5;//#e5d1ded6;
         --header-line-color: #e5d1ded6;
         --header-icon-fill-color: #e5d1ded6;
 

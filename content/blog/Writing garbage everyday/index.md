@@ -1,6 +1,9 @@
 +++
 title = "Writing garbage everyday"
 date = 2024-04-02
+
+[extra]
+og_description = "Writing garbage everyday"
 +++
 
 {{ img(path="@/blog/Writing garbage everyday/trash.png", class="graphik") }} I've been inspired to build a digital space and write blog notes for my own personal gain and enjoyment. I have a lot of ideas in my head about different kinds of things I want to document and opinions I want to jot down, but every time I actually start to write, I can't seem to find the right words and sentences to express what I'm thinking. I'm not a writer and I've also always had a problem trying to convert my thoughts into words which makes it even more challenging.

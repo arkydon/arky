@@ -1,8 +1,11 @@
 +++
 title = "My mental health"
 date = 2024-01-01
+
+[extra]
+og_description = "My mental health"
 +++
-*This is a more refined article about my mental health that I wrote and shared last year.*
+*This is a more refined blog article about my mental health that I wrote and shared last year.*
 
 <!-- more -->
 

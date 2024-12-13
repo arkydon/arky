@@ -26,7 +26,7 @@ body {
 /* Add space around everything except header */
 section.section {
     padding-inline: var(--section-padding-inline);
-    min-height: 80vh;  // Extend section to full mobile screen height
+    min-height: 70vh;  // Extend section to full mobile screen height
     padding-block-start: 1px;
 }
 /* Header styling */
@@ -38,10 +38,8 @@ header.site-header{
     //box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 .site-header nav a{
-    text-decoration: none;
-    //font-size: 21px;
-    //color: var(--nav-link-color);
-    border-bottom: none; /* Removes the underline */
+    //text-decoration: none;
+    //border-bottom: none; /* Removes the underline */
     //text-transform: lowercase;
 }
 .header-icon{
@@ -84,8 +82,9 @@ span.star {
 h1.title-header {
     background-color: var(--title-header-background-color);
     //padding-block-start: 40px;
-    padding-block-end: 10px;
+    //padding-block-end: 10px;
     margin-top: 0;
+    margin-bottom: 5px;
 }
 
 .breadcrumb-icon {
@@ -121,10 +120,9 @@ p.bread-bar {
 /*  Style all links*/
 a {
     text-decoration: none;
-    border-bottom: 2px dashed currentColor; /* creates the underline */
-    padding-bottom: 2px; /* adjusts the position of the underline */  
-
-    color:var(--link-color);
+    border-bottom: 1px dashed currentColor;
+    /* padding-bottom: 2px; */
+    color: var(--link-color);
 }
 a:active {
     color: rgb(171, 207, 130);
@@ -133,7 +131,7 @@ a:active {
 h1,h2,h3,h4,h5,h6{
     color:var(--h-colors);
     font-weight: 700;
-    margin-bottom: 0;
+    //margin-bottom: 0;
 
     font-family: "Fira Sans Condensed Light", "Barlow Semi Condensed Medium", "Barlow Semi Condensed Regular", "Jost";
 }
@@ -153,19 +151,20 @@ footer p {
     margin: 0px;
 }
 footer a {
-    color: var(--header-title-color);
+    //color: var(--header-title-color);
 }
 
 /* Style the date for each listing item in Blog section */
 .blog-page-date {
     color: #8f8f8f;
-    font-size: 14px;
+    font-size: 13px;
+    margin-top: -5px
 }
 /* Style the date inside each blog article */
 .blog-page-article-date {
     color: #8f8f8f;
-    font-size: 14px;
-    margin-block-start: 0;
+    font-size: 13px;
+    margin-top: -20px;
 }
 
 /* Style all bullet icons*/
@@ -178,7 +177,7 @@ ul li {
     //Backup: list-style-image: url('data:image/svg+xml,<svg class="bullet-icon-color" xmlns="http://www.w3.org/2000/svg" height="12" width="12.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(255, 112, 112)" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>');
     list-style-image: url('data:image/svg+xml,<svg class="bullet-icon-color" xmlns="http://www.w3.org/2000/svg" height="12" width="12.5" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(200 107 107)" d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>');
     padding-left: 5px;
-    padding-bottom: 10px;
+    //padding-bottom: 10px;
 }
 ul li li {
     font-size: 0.9em;
@@ -309,15 +308,25 @@ h1.title-header a {
 }
 
 nav .free a {
-    color: #3688d0;
+    color: var(--link-color);
     text-transform: capitalize;
-    font-size: 16px;
+    font-size: 15px;
 
-    font-family: monospace;
-    text-decoration: dashed;
+    //font-family: monospace;
+    //text-decoration: dashed;
     padding-bottom: 0px;
     border-bottom: 1px dashed;
 }
+
+/*
+.panel {
+    // background-color: #fff9f9; 
+    padding-inline: 20px;
+    padding-block: 1px;
+    border-radius: 6px;
+    border: 2px solid #ebebeb;
+}
+*/
 
 /* Widescreen Styling*/
 @media (min-width:600px){
@@ -343,8 +352,8 @@ nav .free a {
         /* border-radius: 5px; */
     }
     .site-header nav a {
-        font-size: 25px;
-        padding-bottom: 27px;
+        font-size: 18px;
+        /* padding-bottom: 27px;*/
     }
     .eleven h1::after{
         top:100px;
@@ -380,13 +389,18 @@ nav .free a {
         padding-block: 1px;
         margin-block: 12px;        
     }
+    .free {
+        //grid-template-columns: auto;
+        grid-template-columns: 1fr 30px;
+    }
+
     @media (prefers-color-scheme: dark) {
         .garden-section .panel { 
             background: #3d3241;
         }
     } 
     footer {
-        display: none;
+        //display: none;
     }
 }
 
@@ -458,14 +472,14 @@ a.gallery-image {
 
 hr {
     /* color: #751717; */
-    border: 1px solid #d5d5d5;
-    width: 30%;
+    //border: 1px solid #d5d5d5;
+    //width: 30%;
     /* height: 12px; */
 }
 
 
 // Header divider hr
-
+/*
   hr.sep-3 {
     border: none;
     height: 1px;
@@ -482,3 +496,55 @@ hr {
     padding: 1rem;
     background-color: white;
   }
+*/
+  hr {
+    //margin: 12px 0;
+    margin: 0 0;
+    border: 0;
+    text-align: center;
+    
+    &:before {
+      content: "\2022 \2022 \2022";
+      font-size: 20px;
+      //color: #4F8BCA;
+      color: var(--main-color);
+    }
+  }
+
+// Details design
+  details {
+    font-size: 0.8em;
+
+    border: 1px dashed #aaa;
+    border-radius: 4px;
+    padding-inline: 12px;
+    padding-block: 5px;
+    margin-bottom: 12px;
+    margin-inline: 7px;
+  }
+  
+  summary {
+    font-weight: bold;
+    /* margin: -.5em -.5em 0; */
+    /* padding: .5em; */
+  }
+  
+  details[open] {
+    //padding: 0.5em;
+  }
+  
+  details[open] summary {
+    border-bottom: 1px solid #aaa;
+    margin-bottom: 0.5em;
+}
+  
+
+details > summary {
+    list-style-type: ' + ';
+}
+
+details[open] > summary {
+    list-style-type: ' - ';
+}
+
+// ------------------

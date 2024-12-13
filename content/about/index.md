@@ -10,31 +10,100 @@ template = "blog-page.html"
 * Full Name - Arkydon Lyngdoh
 * DoB - 22nd Nov
 * Location - Shillong
-* 💁🏼‍♂️ - Introvert, Chronically Online, Unhinged
+* Introvert, chronically Online, attention seeker
 ----
 ## Preferences
+<details>
 
-**Likes**
-* *Astronomy related stuff*. The starry night sky 🌌, comets, meteors 🌠, solar activity ☀️.
-* Beautiful websites that aren't slow.
-* *Sunsets* 🌄.
-* Cool *rocks* 🪨.
-* *Organising* things.
-* *Open World* games.
+<summary> 
+Likes 
+</summary>
 
-**Dislikes** 
+* Things related to Astronomy: Comets, meteors 🌠, solar activity ☀️
+* Beautiful websites that aren't slow
+* *Sunsets* 🌄
+* Cool *rocks* 🪨
+* *Organising* things
+* *Open World* games
+</details>
+
+<details>
+
+<summary>
+Dislikes
+</summary>
+
 * Getting wet in the rain.
 * Small talk.
 * Sports.
 * Stan wars. 
-------------------------------------------------------------------------
-## Favourite Games
+
+</details>
+
+
+
+<details>
+
+<summary>Games</summary>
+
 * **Dota**.
 * **Age of Mythology**
-* **Pokemon**. I love playing Pokemon ROM hacks. I also made one myself.
-* **Minecraft**. Even though I love this game I don't play it anymore because it gives me vertigo.
-* **No Man's Sky**. The ultimate game that I want to play every day but unfortunately my old laptop can't run it.
-----
+* **Pokemon**.Including Pokemon ROM hacks. (Made one myself)
+* **Minecraft**.
+* **No Man's Sky**.
+
+</details>
+
+<details> 
+
+<summary>Colours</summary>
+
+* Sepia 
+* Peach Fuzz
+* Salmon.
+
+</details>
+
+<details>
+<summary>Fonts</summary>
+
+* Jost
+* Jetbrains Mono
+* Consolas
+
+</details>
+
+<details>
+<summary>Artists</summary>
+
+* Tove Lo
+* Sabrina Carpenter
+* Jeremy Zucker
+* Paramore
+
+</details>
+
+
+<details>
+<summary>TV Shows</summary>
+
+* HIMYM
+* Altered Carbon
+* Wandavision
+* The Originals
+</details>
+
+<details>
+<summary>TV Movies</summary>
+
+* Interstellar
+* Cat in the hat
+* Melancholia
+
+</details>
+
+
+<!--
 ## Other Favourites
 
 * **Colours** : Sepia, Peach Fuzz, Salmon.
@@ -44,3 +113,5 @@ template = "blog-page.html"
 * **Singers** : Tove Lo, Jeremy Zucker, Sabrina Carpenter, Troye, Paramore, Linkin Park.
 * **TV** : Interstellar, HIMYM, Wandavision, Melancholia, The Originals, ...
 * **Bible Translation**: NLT
+
+-->
