@@ -103,6 +103,19 @@ Dislikes
 </details>
 
 
+<details>
+<summary>
+Books
+</summary>
+
+* The Apocalypse Triptych
+* Age of Miracles
+* Dreamers
+* Lucifer’s Hammer
+* The Rapture
+* Animal Farm
+</details>
+
 <!--
 ## Other Favourites
 

@@ -1,16 +1,16 @@
 :root {
-    --main-font-size: 17px;
-    --main-font-height: 30px;
+    --main-font-size: 20px;
+    --main-line-height: 30px;
 
-    --title-header-size: 40px;
+    --title-header-size: 1.2em;
     --section-padding-inline: 22px;
 
-    --main-color: rgb(200 107 107);
+    --main-color:rgb(63,125,207);// rgb(200 107 107);
 
     --body-color: #ffffff;
-    --body-font-color: #664848;//#393939;
+    //--body-font-color: #664848;//#393939;
     --panel-color: rgba(37, 43, 37, 0.81);
-    --link-color:#3688d0; //var(--body-font-color);
+    --link-color:#d05454;//#3688d0; //var(--body-font-color);
 
     --title-header-background-color: #ffeee100;
     --header-background-color:#ffffff00;//#f3f3f3;// #eeeeee;//#f0f0f0;
@@ -23,7 +23,7 @@
     --nav-separator-color:#7eb9da;//#52829e;
 
     --wave-color: #ffffff;
-    --h-colors: rgb(200 107 107);//var(--main-color);
+    --h-colors: var(--main-color);
     --hr-color: #454444;
 
     --color-1: var(--header-title-color);

@@ -8,25 +8,26 @@ template = "garden/garden-hybrid.html"
  {{ img(path="@/garden/notes/now/now.png", class="pict", alt="It's me!") }}
 -->
 
-#### Currently
-* Finished making my website and migrating all the articles from my old blog.
-* Blog things: 
-    - Learning how to write blog articles.
-    - Reading and being inspired by other people's blogs.
+**Currently**
 
-* Playing with mind maps \
-    Mind maps always seemed like just a fancy way to do what I can already do by writing ordinary notes. But now I'm starting to undertand how useful mind maps are. 
-	(I used an app called Nicemind to visualise how I want the structure of my website to be.)
-	
-* Being more active on the fediverse: Mastodon, Pixelfed and Lemmy.
+- Playing Pokemon Black Pearl Emerald.
+- Redesigning and tweaking my website.
+- Listening to Christmas songs.
 
-#### On pause
+**Planning**
 
-* Updating my old blog.
-* Learning Golang for fun.
+- Javascript
+- Pokemon ROM hack
+- Reading new book
+- 
 
-#### Planning
+**Finished**
 
-* Make another Pokémon ROM hack.
-* Python again.
+- Setting up a new SSD as my primary drive. Windows 11 is sluggish asf on an HDD.
+- Switching to Microsoft Edge + uBo lite on Android. Kiwi hadn't been updated in a long time and Edge supports extentions now which makes it the perfect replacement.
+- Switching and migrating all my notes from Notion to Upnote. Notion was becoming too sow and laggy.
 
+**Paused**
+
+- Dota
+-

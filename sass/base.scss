@@ -4,18 +4,20 @@
 @use "fonts/firasansc.scss";
 @use "header-line.scss";
 @use "garden.scss";
-
+@use "fonts/barlowm.scss";
+//@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
+//@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 html {
     font-size: var(--main-font-size);
-    line-height: var(--main-font-height);
+    line-height: var(--main-line-height);
 }
 body {
     padding: 0;
     margin: 0;
 
     font-size: var(--main-font-size);
-    font-family: "Fira Sans Condensed Regular", "Barlow Semi Condensed Regular", "Roboto Condensed", "Arial";
+    font-family: "Barlow","Fira Sans Condensed Regular", "Barlow Semi Condensed Regular", "Roboto Condensed", "Arial";
     color:var(--body-font-color);
 
     background-color: var(--body-color);
@@ -50,9 +52,9 @@ nav {
     display: flex;
     justify-content: space-around;
     padding-inline: 45px;
-    padding-block-start: 35px;
+    padding-block-start: 40px;
     padding-block-end: 25px;
-    padding-inline-start: 15px;
+    //padding-inline-start: 15px;
     background-color: var(--nav-header-background-color);
 }
 span.star {
@@ -68,7 +70,7 @@ span.star {
     font-size: var(--title-header-size);
     border-bottom: none;
 
-    font-weight: bolder;
+    //font-weight: bolder;
     width: -webkit-min-content;
     width: -moz-min-content;
     width: min-content;
@@ -84,7 +86,8 @@ h1.title-header {
     //padding-block-start: 40px;
     //padding-block-end: 10px;
     margin-top: 0;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    line-height: 1em;
 }
 
 .breadcrumb-icon {
@@ -114,7 +117,9 @@ h1.title-header {
 
 p.bread-bar {
     border-bottom: 1px solid #c7c6c6;
+    border-top: 1px solid #c7c6c6;
     padding-block-end: 5px;
+    padding-block-start: 5px;
 }
 
 /*  Style all links*/
@@ -130,10 +135,11 @@ a:active {
 
 h1,h2,h3,h4,h5,h6{
     color:var(--h-colors);
-    font-weight: 700;
-    //margin-bottom: 0;
-
-    font-family: "Fira Sans Condensed Light", "Barlow Semi Condensed Medium", "Barlow Semi Condensed Regular", "Jost";
+    font-weight: 500;
+    font-family: "Barlow Semi Condensed Medium", "Fira Sans Condensed Light", "Barlow Semi Condensed Regular", "Jost";
+}
+h1 {
+    font-size: 1.7em;
 }
 h1.title {
     font-size: 1.25em;
@@ -236,7 +242,7 @@ img.banner {
 .av img {
     //width: 36%;
     //width: 50px;
-    width: 100px;
+    width: 125px;
 }
 
 .wavy {
@@ -290,11 +296,11 @@ pre {
 .ev{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    //align-items: center;
 }
 
 h1.title-header a {
-    font-size: 32px;
+    font-size: var(--title-header-size);
     text-transform: uppercase;
 }
 .free {
@@ -310,12 +316,10 @@ h1.title-header a {
 nav .free a {
     color: var(--link-color);
     text-transform: capitalize;
-    font-size: 15px;
-
-    //font-family: monospace;
-    //text-decoration: dashed;
+    font-size: 17px;
     padding-bottom: 0px;
     border-bottom: 1px dashed;
+    justify-self: start;
 }
 
 /*
