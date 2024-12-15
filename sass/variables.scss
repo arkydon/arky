@@ -1,16 +1,16 @@
 :root {
-    --main-font-size: 20px;
+    --main-font-size: 18px;
     --main-line-height: 30px;
 
-    --title-header-size: 1.2em;
+    --title-header-size: 1.9em;
     --section-padding-inline: 22px;
 
-    --main-color:rgb(63,125,207);// rgb(200 107 107);
+    --main-color:rgb(207 63 63); //rgb(63,125,207);// rgb(200 107 107);
 
     --body-color: #ffffff;
     //--body-font-color: #664848;//#393939;
     --panel-color: rgba(37, 43, 37, 0.81);
-    --link-color:#d05454;//#3688d0; //var(--body-font-color);
+    --link-color:#5480d0;//#d05454;//#3688d0; //var(--body-font-color);
 
     --title-header-background-color: #ffeee100;
     --header-background-color:#ffffff00;//#f3f3f3;// #eeeeee;//#f0f0f0;
@@ -34,11 +34,11 @@
     
 
     // Multi colour title Header Colors
-    /* --color-1: #186cb8;
+     --color-1: #186cb8;
     --color-2: #2a9a9f;
     --color-3: #f1b211;
     --color-4: #e83611;
-    --color-5: #f9002f;*/
+    --color-5: #f9002f;
 }
 
 @media (prefers-color-scheme: dark) {
