@@ -9,9 +9,9 @@ og_description = "My mental health"
 
 <!-- more -->
 
-{{ img(path="@/blog/mental health/dislike.png", class="graphik") }} Some people have fond memories of their childhood while some don't. I belong to the second category. My childhood sucks because I was struggling with mental health issues, which wasn't anyone's fault, but school and religion was responsible for making things worse. 
+{{ img(path="@/blog/mental health/dislike.png", class="graphik") }} My childhood sucks because I was struggling with mental health issues, that wasn't caused by anyone. Issues that were made worse by school and religion. 
 
-School made me feel like shit because I felt like I had to behave all the time, get good grades, and never mess up, which wouldn't be so terrible if I didn't have this irrational fear that I was going to accidentally break some rule. It felt like I was constantly walking on eggshells. I would second guess everything I was doing and it made me very depressed. On the outside, I looked like a normal child, but inside I was a wreck.\
+School life was terrible because I felt like I had to behave all the time, get good grades, and never mess up and I had this irrational fear that I was going to accidentally break some rule. It felt like I was constantly walking on eggshells. I would second guess everything I was doing and it made me very depressed. On the outside, I looked like a normal child, but inside I was a wreck.\
 
 Back then I was consumed by thoughts that made me feel guilty all the time. I was terrified of God and thought I was going to hell for even the smallest of things that I did or didn't do. I tried to shake off these tormenting thoughts but couldn't. They would sometimes randomly make me feel like I had to do something odd like rearranging furniture over and over again until they were satisfied or I was doomed. That was how awful it was.
 

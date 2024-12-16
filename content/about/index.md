@@ -10,7 +10,7 @@ template = "blog-page.html"
 * Full Name - Arkydon Lyngdoh
 * DoB - 22nd Nov
 * Location - Shillong
-* Introvert, chronically Online, attention seeker
+* Introvert, chronically online, attention seeker, paranoid
 ----
 ## Preferences
 <details>
@@ -41,6 +41,7 @@ Dislikes
 </details>
 
 
+## Favourites
 
 <details>
 
@@ -80,6 +81,7 @@ Dislikes
 * Sabrina Carpenter
 * Jeremy Zucker
 * Paramore
+* Jojo
 
 </details>
 
@@ -114,6 +116,15 @@ Books
 * Lucifer’s Hammer
 * The Rapture
 * Animal Farm
+</details>
+
+<details>
+<summary>Pokemon</summary>
+
+* Copperrajah 
+* Breloom
+* Sneasel
+
 </details>
 
 <!--

@@ -13,7 +13,7 @@ template = "garden/garden-hybrid-mini-blog.html"
 ### Random
 I have a *'There's something seriously wrong in my head'* realisation a couple of times a day.
 
-That sad moment when you find something very funny but can't share it with anyone because no one will get it. It's either an obscure reference that requires being chronically online to understand, or a topic that none of your friends are interested in, like Pokémon.
+Hate when I find something really funny that I can't share with anyone because there's no one I know who will get it. It's either some very obscure reference that requires being chronically online to understand, or a topic that no one I know is interested in, like Pokémon.
  
 <!-- ### Watermelons
 Maybe the wellow theres

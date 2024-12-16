@@ -11,14 +11,14 @@ template = "garden/garden-hybrid.html"
 **Currently**
 
 - Playing Pokemon Black Pearl Emerald.
-- Redesigning and tweaking my website.
-- Listening to Christmas songs.
+- Redesigning and tweaking my website yet again.
+- Listening to Christmas songs on repeat.
 
 **Planning**
 
 - Javascript
-- Pokemon ROM hack
-- Reading new book
+- Make another Pokemon ROM hack
+- Read more books
 - 
 
 **Finished**

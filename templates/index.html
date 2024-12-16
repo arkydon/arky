@@ -17,7 +17,7 @@
     </div>
     <hr/>
     <div class="panel">
-      <h3>Recent Blog Posts :</h3>
+      <h2>Recent Blog Posts :</h2>
       {% set blog = get_section(path="blog/_index.md") %}
       <ul class="homepage-blog-listing">
         {% for post in blog.pages | slice(end=3) %}
