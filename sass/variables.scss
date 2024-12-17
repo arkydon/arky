@@ -3,7 +3,7 @@
     --main-line-height: 30px;
 
     --title-header-size: 2em;
-    --section-padding-inline: 22px;
+    --section-padding-inline: 25px;
 
     --main-color:rgb(207 63 63); //rgb(63,125,207);// rgb(200 107 107);
 
@@ -26,14 +26,15 @@
     --h-colors: var(--main-color);
     --hr-color: #454444;
 
+    /*
     --color-1: var(--header-title-color);
     --color-2: var(--color-1);
     --color-3: var(--color-1);
     --color-4: var(--color-1);
     --color-5: var(--color-1);
-    
+    */
 
-    // Multi colour title Header Colors
+    // Multi coloured nav header title
      --color-1: #186cb8;
     --color-2: #2a9a9f;
     --color-3: #f1b211;
@@ -57,5 +58,11 @@
 
         //--h-colors:#db7262;
         --hr-color: #e0cfeb;
+    }
+}
+
+@media (min-width:800px){
+    :root{
+        //--main-font-size: 21px;
     }
 }

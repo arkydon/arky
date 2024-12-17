@@ -13,7 +13,7 @@ I used a *static site generator* called [Zola](https://www.getzola.org/) - a tin
 I had already made a website using a custom theme as the base which I modified until I finished making an initial final version of my website 🤷. The problem was that the code was a mess - terrible CSS code, confusing random variable names everywhere, lots of repeated code and also a lot of templating code that I didn't need or had no idea what they did. There was also many parts of the website that I didnt understand how they worked. 
 
 I decided to make the entire website again from scratch without using any theme as the base. Thanks to the internet, the docs and Copilot, Meta, Gemini and Claude I was able to slowly make a new website. Making the structure of the website took only a few days but styling it took longer because I only have a basic idea of CSS. 
-> Choosing the right colours was such a chore because the colours looks completely different compared to how they looked on my phone. 
+> Choosing the right colors was such a chore the colors looked completely different on my laptop compared to my phone. 
 
 I finally finished a design I liked which I thought was going to be the final design but I've changed the design more than a dozen times since them. 
 Generating the website from the code was almost instant, thanks to Zola's speed.
