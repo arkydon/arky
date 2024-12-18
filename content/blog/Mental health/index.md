@@ -9,48 +9,49 @@ og_description = "My mental health"
 
 <!-- more -->
 
-{{ img(path="@/blog/mental health/dislike.png", class="graphik") }} Wish I could say I miss my childhood, but I don't, it sucked so much because I was struggling with problems with my mental health. Problems that were made worse by religion and school.
+{{ img(path="@/blog/mental health/dislike.png", class="graphik") }} Wish I could say I miss being a kid, but like many people who didn't grow up with a normal childhood, I don't. It sucked because I was struggling with problems with my mental health that were made worse by religion and school.
 
 **School**
 
-School life was stressful. I felt like I was walking on eggshells all the time, like if I might accidentally mess up and do something terrible and face terrible consequences for it so I would always second guess everything I was doing, and it made me miserable. On the outside, I looked like a normal student, but inside I was a wreck, jealous of the kids who were in trouble all the time and never cared about it, wishing I was the same.\
+School life was really stressful. I felt like I was walking on eggshells all the time, like I might mess up and do accidentally break some random rule or unintentionally do something terrible and face terrible consequences. I would always second guess everything I was doing, and it made me miserable asf. On the outside, I looked like a normal student, but inside I was a wreck and freaking out all the time. I was jealous of the kids who were in trouble all the time and never cared, wishing I was the same.
 
 **Religion**
 
-I was consumed by thoughts that made me feel guilty all the time. I was terrified of God and thought I was going to hell for even the smallest of things that I did or didn't do. I tried to shake off these tormenting thoughts but couldn't. They would sometimes make me feel like I had to do weird random things like clean my room or rearrange furniture or read a page over and over again until they were satisfied, or I was doomed.
+I was consumed by thoughts that made me feel guilty all the time. I was terrified of God and thought I was going to hell for even the smallest thing that I did or didn't do. I tried to shake off these tormenting thoughts but couldn't. They were intense and would sometimes guilt me into doing weird random things like clean some random object or rearrange furniture or read some page of a book, over and over again, until I felt like I had done enough to not be doomed.
 
 **Phobia**
 
-I was involved in an incident with a car that left me with a fear of cars that makes me super anxious around traffic. I'm still terrified of crossing roads and try to avoid it as much as possible, because sometimes I'll just freeze in the middle of the road. The ironic thing is that during my college days, I loved walking on the busy streets in the evening or night, but I'd often take the long way around places just to avoid crossing the street.
+I was involved in an incident with a car that left me with a fear of vehicles which makes me super anxious around traffic. I'm still terrified of crossing roads and try to avoid it as much as possible, because sometimes I'll freeze in the middle of the road. Ironically during my college days, I loved walking on the busy streets in the evening or night, but I'd always unnecessarily take the long way around places just to avoid crossing the street.
 
 **Emotional state**
 
-This is something I can't easily explain in words. My emotions are all over the place - sometimes I'm numb, other times days I'm feeling specific things way too deeply.
+This is something I don't completely understand or know how to explain. My emotions are all over the place - sometimes I feel completely numb, other times I feel specific things way too deeply. 
+ Sometimes I like to interact and talk to people, and other (most) times I have no mood to socialise. I guess I might be almost a sociopath except sometimes I'm not and sometimes I am (?).  To almost everyone, this is how I am, but with specific people I'm different, I'm always in the mood to (over) socialize. It might not even be be with someone who I know. It's the same thing with empathy—sometimes I feel empathetic and sometimes I don't, and (again) depending on who you are, I might always be so.
 
-Since I was a child, I never really felt anything for my "parent" - no love, no hate, no fear, no longing. He was like a stranger. It never bothered me, and it still doesn't. But thanks to this parent being a douche canoe I did start to feel something - hatred, which wouldn't be a problem if I weren't living in the same house as this person, it made me addicted to indulging in dark thoughts and violent fantasies thanks to me being a very vindictive person.
+Since I was a child, I've never really felt any kind of emotion for my "father" - no love, no hate. He was just like a stranger and it never ever bothered me, and still doesn't. But thanks to this parent being a shitty person, I did start to feel something - hatred, which wouldn't be a problem if I weren't living in the same house. It made me addicted to indulging in dark thoughts and violent fantasies because of me being a very vindictive person.
 
-Gatherings make me uncomfortable; it doesn't matter if it is people I know or don't know. It's not that I'm a sociopath (mostly). But (again) it's too complicated to explain. Sometimes I like to interact and talk to people, and other (most) times I don't feel like it. To almost everyone, this is what I feel, but with specific people I always have the mood to over-socialize, and here's the odd thing: it doesn't have to be someone I know. It's the same thing with empathy—sometimes I feel empathetic and sometimes I don't, and depending on who you are, I might always be so.
 
 **Identity and personality**
 
-I used to feel like I had no genuine personality, as if I was always putting on a fake persona. Like I was pretending to be things I wasn't, because I had no clue who I really was. I felt like I was living a lie, constantly switching up my personality depending on where and to who I was interacting with.
+I used to feel like I had no genuine personality, as if I was always putting on a fake persona, especially in school and around family and acquaintances. I felt so fake because I had no clue who I really was and I was constantly switching up my personality depending on where I was and who I was interacting with.
 
-For a long time I thought that all this shit was normal but there was one thing about me that I mistakenly thought was not: my being gay.
-
-I hated it so much because I was taught that it was unnatural, so I tried very hard to change. I prayed for many years for it to go away, feeling ashamed and hating this part of myself, which made me even more miserable than I already was and messed me up. I coped by trying to bury that part of me, living a lie and pretending to be straight.
+I never once thought that these things were not normal but there was some thing else that was always bothering me : my being gay. I hated it so much because I was taught that it was unnatural, so I tried really hard to change. For many years I tried praying for it to go away. Feeling ashamed and hating this part of myself, which made me even more miserable than I already was. Nothing I did could change me so I coped by trying to bury this part of me and pretending like I was straight, if I had to.
 
 **Slow Recovery**
 
-Thankfully, things improved and my mental health got better. The tormenting thoughts no longer bothered me once I learned who God really is and understood his unconditional love and grace, which freed me from the feelings of guilt and condemnation.
+Thankfully, after the school years, my mental health improved. The tormenting thoughts that made me feel guilty all the time no longer bothered me especially after I understood who God really is and what his unconditional love and grace actually meant. 
 
-My life changed so much when I went to college at Edmund's. Although my anxiety was still there, it wasn't as bad as it used to be. I met new people and made new friends who without even realising it, helped me to become more authentic, I wasn't showing any fake personalities most of the time. Finally I felt like I was being "real" even though I was still pretending to be straight whenever the topic of relationships and crushes came up. Meanwhile I was ditching way too many classes and didn't care about my grades or my attendance percentage. I was clowning, wasting my time doing what made me happy, not caring about anything I didn't want to (which got me in trouble with several teachers many times). Enjoying life the way I could. Looking forward to every day. There was no pressure, no overwhelming guilt to stop me from doing all of this, including the things I never would have dared to do before, because "sin” and “hell". It wasn't all good though because I also did a few regretful things I'm not proud of (not saying what) but overall it was worth it, life was finally worth living.
+This improvement in my mental health happened during the time when I was just starting college at Edmunds. My life changed so much there. Although my anxiety was still present, it wasn't as bad as it used to be. I was beginning to understand who I was. I was meeting new people and made new friends who without realising it, helped me to be more real, I wasn't showing any fake personalities (most of the time). I finally felt like I was being almost completely authentic, although I was still acting like I was a straight person everyday.
 
-After spending three years at Edmund's, I completed half of my master's program at Anthony's. That wonderful period of personal growth was also when I began to realize that I had mental health issues. The principal at the time told me that there was something wrong with me and sent me to a counselor, but unfortunately, the counselor was not helpful at all.
+There was no pressure to do well in class, or to be careful not to break rules. I was ditching way too many classes and didn't care about my grades or my attendance percentage. I was clowning my way through life, wasting my time, doing what made me happy, not caring about anything I didn't want to which got me in trouble a couple of times and I was doing things I never would have dared to do before, because "sin” and “hell". It wasn't all good though. There were many things I did that I'm not proud of but what's important was that life was finally worth living.
+
+After spending three years at Edmund's, I did my master's at Anthony's (which I didn't complete). That was another wonderful period of living a guilt free and  stress free life, meeting new people, making wondeful friends, continuing my mental improvement and (finally) growing to be a better person (learning from all the mistakes I made during bsc college) but more importantly this was the time when I was beginning to actually learn what mental health was and how it related to me. I began to realise that what had been happening in my head, since my childhood, wasn't something that was supposed to happen.
 
 **Now**
 
-So, here I am, many years later, grateful to be free from all the things that made me miserable. It took several years after college, but I finally became comfortable with not being straight and have fully accepted it. I still have some mental health issues, but most of them are manageable. I remain the same paradoxical person I've always been - both emotional and unemotional.
+So, here I am, many years later, grateful to be free from the things that made me miserable and most of the other things that bother me mentally. It took several years, but I finally became comfortable with being homosexual and have fully accepted it and there's a lot of things I want to write about this, when I'm brave (or bored) enough to, I will.
+I still have mental health issues, but most of them are manageable such as my emotional state being still as chaotic as ever, maybe even more. There's also new troublesome things that I had to deal with during these recent years.
 
-Wrapping things up, there are other things I have left out of this post, but I'll add them later. I wrote this article because, over the recent years, I've become more open and shared bits about myself, discovering how liberating it feels each time I do. So, I decided to unpack almost everything I've kept to myself.
+**Wrapping up**
 
-P.S. Sometimes I wonder if all the mental health issues I was experiencing was because I hit my head, which I did, really badly, when I was a child.
+I wrote this blog article because, over the recent years, I've become a little bit more open as I get older and after sharing more about myself, I  realised how freeing it feels each time I do.
