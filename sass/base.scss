@@ -156,13 +156,13 @@ footer p {
 .blog-page-date {
     color: #8f8f8f;
     font-size: 13px;
-    //margin-top: -5px
+    margin-top: -5px
 }
 /* Style the date inside each blog article */
 .blog-page-article-date {
     color: #8f8f8f;
     font-size: 13px;
-    margin-top: -20px;
+    margin-top: -15px;
 }
 
 /* Style all bullet icons*/
@@ -185,6 +185,9 @@ ul.blog-listing li{ // Add a bottom space to all blog listings in BLOG and GARDE
 }
 ul.homepage-blog-listing {
     margin-top: 10px;
+}
+.homepage-blog-listing li {
+    margin-bottom: 5px;
 }
 
 /* Styling for unordered lists*/
