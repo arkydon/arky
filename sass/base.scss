@@ -159,8 +159,13 @@ footer {
     background-color: var(--header-background-color);
 }
 footer p {
-    margin: 0px;
+    margin-bottom: 0px;
 }
+.email-link {
+    //color: #666;  /* Adjust color as needed */
+    transition: color 0.2s;
+  }
+
 
 /* Style the date for each listing item in Blog section */
 .blog-page-date {
