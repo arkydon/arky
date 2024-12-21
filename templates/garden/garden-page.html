@@ -3,12 +3,12 @@
 {% block content %}
     <div class="panel">
     {# ---------------- Breadcrumbs ------------------#}
-	<p class="bread-bar">
+	<p class="bread-bar truncate">
     {% set breadcrumb = page.components | slice(end=-1) | join(sep='/') %}
        <a class = "breadcrumb-icon" href="{{  "/" ~ breadcrumb}}">
          {{page.components[1] | capitalize}} / {{page.components | slice(end=-1) | last | capitalize}} </a>
          <span>/ {{page.title}}</span>            
-         <hr>
+         {#<hr>#}
         </p>
     {# ----------------------------------------- #}
 

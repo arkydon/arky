@@ -23,3 +23,4 @@ date = 2021-08-11
 
 ### Other:
 - [Grammarbook](https://www.grammarbook.com/) - Grammar tips.
+- https://learn-anything.xyz/ - Learn anything
