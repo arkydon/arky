@@ -16,7 +16,6 @@ date = 2021-08-11
 - [Youtube playlist-len](https://ytplaylist-len.sharats.dev/) : Find the length of any YouTube playlist.
 - [I love PDF](https://www.ilovepdf.com/): Pdf tools
 - [Imgflip](https://imgflip.com/) : Create memes. Meme generator. 
-- [Craft.do](docs.craft.do) : Beautiful document editor.
 - [UIGradients](https://uigradients.com/) : Create, edit and download gradient backgrounds.
 - [Polls.io](https://polls.io/) : Create free polls you can easily share with anyone. No sign up required.
 - [Tally.so](https://tally.so/) : Create Forms.
@@ -25,11 +24,15 @@ date = 2021-08-11
 - [tldraw](https://makereal.tldraw.com/) - Drawing.
 - [shademap.app](https://shademap.app/) - ShadeMap is a global simulation of mountain, building and tree shadows for any date and time. ShadeMap calculates shadow positions in realtime and displays them on a map.
 It can display how many hours of sun or shadow a specific location gets over the course of a day and even over the course of an entire year.
-- [Sherlock (Python Library)](https://sherlockproject.xyz/) - Search for every username of a person online. Analyse online presence of a person.
+
 
 ### Video
 - [Mastershot](https://mastershot.app/) - Video Editor
 - [Unscreen](https://www.unscreen.com/) : Remove Video Background
+
+### Writing
+- [type](https://type.baby/) - Simple "Zen markdown-friendly editor" that supports publishing to web.
+- [Craft.do](docs.craft.do) : Document editor.
 
 #### Image
 - [Photopea](https://www.photopea.com/) : Photoshop alternative.
@@ -37,12 +40,13 @@ It can display how many hours of sun or shadow a specific location gets over the
 	+ [Pixlr X](https://pixlr.com/editor/): Advanced Image editor.
 	+ [Pixlr E](https://pixlr.com/express/) : Simple Image Editor.
 - [Squoosh](https://squoosh.app/) : Quickly compress images.
-- [Profile Pic Maker](https://pfpmaker.com/) : Create beautiful profile pic backgrounds
+- [Profile Pic Maker](https://pfpmaker.com/) : Create better looking profile pic backgrounds
 
-### Security
+### Privacy and Security
 - [VirusTotal](https://www.virustotal.com/gui/home/upload) - Upload a file and scan for viruses. Uses multiple antivirus engines. Supports android apps.
 - [Exodus](https://reports.exodus-privacy.eu.org/en/reports/) - Analyse android apps.
 - [Firefox Relay] - Create an alias (fake address) for your email that you can safely  use instead of your real email address.
+- [Sherlock (Python Library)](https://sherlockproject.xyz/) - Search for every trace of a person online (useful to help trace every embarassing accounts of yourself from the web so you can delete them)
 
 ## Website Dev Tools
 - Page speed :
