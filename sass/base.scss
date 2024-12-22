@@ -591,13 +591,17 @@ a.gallery-image {
     margin-bottom: 0.5em;
 }
   
-
 details > summary {
     list-style-type: ' + ';
 }
 
 details[open] > summary {
     list-style-type: ' - ';
+}
+
+// Tweak margin of ul inside content of <details>
+.details-content ul {
+    margin-block: 0;
 }
 
 // ------------------
