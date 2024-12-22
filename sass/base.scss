@@ -83,42 +83,6 @@ h1.title-header {
     line-height: .5em;
 }
 
-.breadcrumb-icon {
-    width: 24px;
-    height: 24px;
-    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 -1 24 24" stroke-width="2" stroke="rgb(92 149 183)" class="size-6" width="15"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg> ');
-    background-repeat: no-repeat;
-    background-size: 17px;
-    background-position: left center;
-    padding-left: 1.2em;
-    padding-bottom: 0%;
-    border-bottom: none;
-    padding-top: 0%;
-
-    text-decoration: none;
-}
-
-p.bread-bar {
-    border-bottom: 1px solid #c7c6c6;
-    border-top: 1px solid #c7c6c6;
-    padding-block-end: 5px;
-    padding-block-start: 5px;
-    //margin-bottom: 2em;
-
-    // Cut off text in breadcrumb if it does'nt fit in one line
-    //white-space: nowrap;
-    //overflow: hidden;
-}
-
-.truncate {
-    display: inline-block;
-    max-width: 300px; /* Adjust the width as needed */
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    position: relative;
-  }
-  
 /*  Style all links*/
 a {
     text-decoration: 2px underline dashed;
@@ -607,3 +571,7 @@ details[open] > summary {
 }
 
 // ------------------
+
+.title {
+    text-align: center;
+}

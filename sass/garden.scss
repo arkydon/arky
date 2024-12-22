@@ -27,8 +27,32 @@ li.g-links{
 /* Garden section styling*/
 .garden-section ul{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding-left: 30px;
+    grid-template-columns: 1fr;
+    padding-left: 35px;
+}
+.garden-section ul li {
+    padding-block: 7px;
+    /* margin-block: 0; */
+}
+.garden-intro {
+    background-color: #d8f1d4;
+    padding: 10px;
+    margin-block: 12px;
+    border-radius: 5px;
+    font-size: small;
+    color: grey;
+    line-height: 20px;
+}
+.category {
+    //color: #3cab3c;
+}
+.garden-section .panel {
+    background-color: whitesmoke;
+    line-height: 20px;
+    padding: 15px;
+    padding-block-start: 30px;
+    margin-block: 10px;
+    border-radius: 5px;
 }
 .mini-blog-content p {
     padding-left: 30px;
@@ -44,3 +68,42 @@ li.g-links{
   color: #8c069b;
   font-weight: normal;
 }
+
+//bread
+.breadcrumb-icon {
+    width: 24px;
+    height: 24px;
+    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 -1 24 24" stroke-width="2" stroke="rgb(92 149 183)" class="size-6" width="15"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg> ');
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-position: left center;
+    padding-left: 1.2em;
+    padding-bottom: 0%;
+    border-bottom: none;
+    padding-top: 0%;
+
+    text-decoration: none;
+}
+
+p.bread-bar {
+    border-bottom: 1px solid #c7c6c6;
+    border-top: 1px solid #c7c6c6;
+    padding-block-end: 5px;
+    padding-block-start: 5px;
+    margin-block-end: 20px;
+    //margin-bottom: 2em;
+
+    // Cut off text in breadcrumb if it does'nt fit in one line
+    //white-space: nowrap;
+    //overflow: hidden;
+}
+
+.truncate {
+    display: inline-block;
+    max-width: 300px; /* Adjust the width as needed */
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+  }
+  
