@@ -1,0 +1,8 @@
+<details class="custom-details">
+    <summary>
+        {{ summary | markdown(inline=true) | safe }}
+    </summary>
+    <div class="details-content">
+        {{ body | markdown | safe }}
+    </div>
+</details>

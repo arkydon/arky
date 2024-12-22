@@ -13,119 +13,103 @@ template = "blog-page.html"
 * Introvert, chronically online, attention seeker, paranoid
 ----
 ## Preferences
-<details>
-
-<summary> 
-Likes 
-</summary>
-
+{% details(summary="Likes") %}
 * Things related to Astronomy: Comets, meteors 🌠, solar activity ☀️
 * Beautiful websites that aren't slow
 * *Sunsets* 🌄
 * Cool *rocks* 🪨
 * *Organising* things
 * *Open World* games
-</details>
+{% end %}
 
-<details>
-
-<summary>
-Dislikes
-</summary>
-
+{% details(summary="Dislikes") %}
 * Getting wet in the rain.
 * Small talk.
 * Sports.
 * Stan wars. 
-
-</details>
+{% end %}
 
 
 ## Favourites
 
-<details>
-
-<summary>Games</summary>
-
+{% details(summary="Games") %}
 * **Dota**.
 * **Age of Mythology**
 * **Pokemon**.Including Pokemon ROM hacks. (Made one myself)
 * **Minecraft**.
 * **No Man's Sky**.
+{% end %}
+ 
 
-</details>
-
-<details> 
-
-<summary>Colours</summary>
-
+{% details(summary="Colours") %}
 * Sepia 
 * Peach Fuzz
 * Salmon.
+{% end %}
 
-</details>
 
-<details>
-<summary>Fonts</summary>
-
+{% details(summary="Fonts") %}
 * Jost
 * Jetbrains Mono
 * Consolas
+{% end %}
 
-</details>
-
-<details>
-<summary>Artists</summary>
-
+{% details(summary="Singers")%}
 * Tove Lo
 * Sabrina Carpenter
 * Jeremy Zucker
 * Paramore
 * Jojo
+{% end %}
 
-</details>
 
-
-<details>
-<summary>TV Shows</summary>
-
+{% details(summary="TV Show")%}
 * HIMYM
 * Altered Carbon
 * Wandavision
 * The Originals
-</details>
+{% end %}
 
-<details>
-<summary>TV Movies</summary>
-
+{% details(summary="TV Show")%}
 * Interstellar
 * Cat in the hat
 * Melancholia
+{% end %}
 
-</details>
 
-
-<details>
-<summary>
-Books
-</summary>
-
+{% details(summary="Books")%}
 * The Apocalypse Triptych
 * Age of Miracles
 * Dreamers
 * Lucifer’s Hammer
 * The Rapture
 * Animal Farm
-</details>
+{% end %}
 
-<details>
-<summary>Pokemon</summary>
-
+{% details(summary="Pokemon")%}
 * Copperrajah 
 * Breloom
 * Sneasel
+{% end %}
+
+<!--
+<details>
+<summary>
+TV
+</summary>
+{% details(summary="Movies") %}
+- dsfsdf
+- sdfsdfsdfsdfsdf
+{% end %}
+
+{% details(summary="Show") %}
+- dsfsdf
+- sdfsdfsdfsdfsdf
+{% end %}
 
 </details>
+-->
+
 
 <!--
 ## Other Favourites
@@ -137,5 +121,4 @@ Books
 * **Singers** : Tove Lo, Jeremy Zucker, Sabrina Carpenter, Troye, Paramore, Linkin Park.
 * **TV** : Interstellar, HIMYM, Wandavision, Melancholia, The Originals, ...
 * **Bible Translation**: NLT
-
 -->
