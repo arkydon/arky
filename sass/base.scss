@@ -33,8 +33,10 @@ body {
 section.section {
     padding-inline: var(--section-padding-inline);
     min-height: 70vh;  // Extend section to full mobile screen height
-    padding-block-start: 0;
+    padding-block-start: 10px;
 }
+
+
 /* Header styling */
 header.site-header{
     background-color: var(--header-background-color);
@@ -150,6 +152,9 @@ h1.title {
     //font-size: 1.25em;
 }
 
+p {
+    margin-block: 5px;
+}
 footer {
     text-align: center;
     font-size: 15px;
@@ -177,7 +182,7 @@ footer p {
 .blog-page-article-date {
     color: #8f8f8f;
     font-size: 13px;
-    margin-top: -15px;
+    margin-top: 1px;
 }
 
 /* Style all bullet icons*/
@@ -279,7 +284,7 @@ img.banner {
 
 blockquote {
     padding-inline: 14px;
-    margin: 5px;
+    margin-inline: 5px;
     border-left: 2px solid #d58181;
     //font-size: smaller;
     font-size: 0.9em;
@@ -567,7 +572,7 @@ a.gallery-image {
     border-radius: 4px;
     padding-inline: 12px;
     padding-block: 5px;
-    margin-bottom: 12px;
+    margin-block: 10px;
     margin-inline: 7px;
   }
   

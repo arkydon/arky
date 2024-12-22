@@ -6,7 +6,7 @@ template = "blog-page.html"
 
 
 
-## Bio
+<!-- ## Bio -->
 * Full Name - Arkydon Lyngdoh
 * DoB - 22nd Nov
 * Location - Shillong
