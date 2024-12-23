@@ -40,4 +40,4 @@ Table of Contents
 > Mostly tech oriented web spaces
 * https://mbuffett.com/posts/
 * [Alicia Sykes](https://www.aliciasykes.com/blog)
-* (Coders Block)[https://codersblock.com/] (great web dev writings)
+* [Coders Block](https://codersblock.com/) (great web dev writings)

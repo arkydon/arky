@@ -11,8 +11,9 @@ template = "garden/garden-hybrid.html"
 3. Added email link to the footer.
 4. Replaced Meowth icon with a better favicon.
 5. Changed **Garden** _section_ design.
-6. Fix margin spacing, list bullet image  being misaligned, footer margins. Changed bullet styling in Garden section page.
-
+6. - Fix margin spacing, list bullet image  being misaligned, footer margins. 
+   - Changed bullet styling in Garden section page. 
+   - Partially fixed dark mode colours.
   
 
 ## TODO

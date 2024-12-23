@@ -70,7 +70,7 @@ template = "blog-page.html"
 * The Originals
 {% end %}
 
-{% details(summary="TV Show")%}
+{% details(summary="TV Movies")%}
 * Interstellar
 * Cat in the hat
 * Melancholia

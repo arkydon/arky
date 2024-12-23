@@ -46,7 +46,7 @@ li.g-changes{
     margin-block: 0;
 }
 .garden-section ul li {
-    padding-block: 5px;
+    //padding-block: 5px;
     /* margin-block: 0; */
 }
 .garden-section a {
@@ -54,7 +54,7 @@ li.g-changes{
 }
 
 .garden-intro {
-    background-color: #d8f1d4;
+    background-color: var(--garden-intro-bg-color);
     padding: 10px;
     margin-block: 12px;
     border-radius: 5px;
@@ -66,7 +66,7 @@ li.g-changes{
     //color: #3cab3c;
 }
 .garden-section .panel {
-    background-color: #f5f5f5;
+    background-color: var(--garden-section-bg-color);
     //line-height: 20px;
     padding: 20px;
     //padding-block-start: 1px;
