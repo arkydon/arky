@@ -14,7 +14,6 @@ html {
 }
 body {
     padding: 0;
-    margin: 0;
 
     font-size: var(--main-font-size);
     font-family: "Acumin Pro SemiCondensed","Barlow","Fira Sans Condensed Regular", "Barlow Semi Condensed Regular", "Roboto Condensed", "Arial";
@@ -26,14 +25,16 @@ body {
 
     -webkit-font-smoothing: antialiased; /* For WebKit browsers (e.g., Chrome, Safari) */
     -moz-osx-font-smoothing: grayscale;  /* For Firefox on macOS */
+
+    padding: var(--section-padding-inline)
     
 }
 
 /* Add space around everything except header */
 section.section {
-    padding-inline: var(--section-padding-inline);
+    //padding-inline: var(--section-padding-inline);
     min-height: 70vh;  // Extend section to full mobile screen height
-    padding-block-start: 10px;
+    //padding-block-start: 10px;
 }
 
 
@@ -49,9 +50,9 @@ header.site-header{
 nav {
     display: flex;
     justify-content: space-around;
-    padding-inline: 30px;
-    padding-block-start: 30px;
-    padding-block-end: 25px;
+    //padding-inline: 30px;
+    //padding-block-start: 30px;
+    //padding-block-end: 25px;
     background-color: var(--nav-header-background-color);
 }
 span.star {
@@ -78,9 +79,9 @@ span.star {
 }
 h1.title-header {
     background-color: var(--title-header-background-color);
-    margin-top: 30px;
-    margin-bottom: 15px;
-    line-height: .5em;
+    //margin-top: 30px;
+    //margin-bottom: 15px;
+    //line-height: .5em;
 }
 
 /*  Style all links*/
@@ -100,8 +101,8 @@ h1,h2,h3,h4,h5,h6{
     font-weight: 400;
     font-family: "Acumin Pro Condensed", "Barlow Semi Condensed Thin", "Barlow Semi Condensed Medium", "Fira Sans Condensed Light", "Barlow Semi Condensed Regular", "Jost";
     //line-height: 0.5em;  
-    padding-block: 0;
-    margin-block: 0;  
+    margin-block-start: auto;
+    margin-block-end: auto;  
 }
 h1 {
     font-size: 1.5em;
@@ -117,7 +118,7 @@ h1.title {
 }
 
 p {
-    margin-block: 5px;
+    //margin-block: 5px;
 }
 footer {
     text-align: center;
@@ -152,7 +153,7 @@ footer p {
 /* Style all bullet icons*/
 ul {
     list-style-type: none;
-    padding-left: 20px;     //Move li elements to the left
+    padding-left: 25px;     //Move li elements to the left
 }
 ul li {
     //flame icon list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="14" width="14" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(183 83 77)" d="M153.6 29.9l16-21.3C173.6 3.2 180 0 186.7 0C198.4 0 208 9.6 208 21.3V43.5c0 13.1 5.4 25.7 14.9 34.7L307.6 159C356.4 205.6 384 270.2 384 337.7C384 434 306 512 209.7 512H192C86 512 0 426 0 320v-3.8c0-48.8 19.4-95.6 53.9-130.1l3.5-3.5c4.2-4.2 10-6.6 16-6.6C85.9 176 96 186.1 96 198.6V288c0 35.3 28.7 64 64 64s64-28.7 64-64v-3.9c0-18-7.2-35.3-19.9-48l-38.6-38.6c-24-24-37.5-56.7-37.5-90.7c0-27.7 9-54.8 25.6-76.9z"/></svg>');
@@ -161,7 +162,7 @@ ul li {
     padding-left: 5px;
     //padding-bottom: 10px;
 
-    padding-block: 5px;
+    //padding-block: 5px;
 }
 ul li li {
     font-size: 0.9em;
@@ -170,10 +171,10 @@ ul.blog-listing li{ // Add a bottom space to all blog listings in BLOG and GARDE
     padding-bottom: 15px;
 }
 ul.homepage-blog-listing {
-    margin-top: 10px;
+    //margin-top: 10px;
 }
 .homepage-blog-listing li {
-    margin-bottom: 5px;
+    //margin-bottom: 5px;
 }
 
 /* Styling for unordered lists*/
@@ -218,34 +219,6 @@ img.banner {
     transform: translate(10px, 11px);
 }
 
-.wavy {
-    /* Wavy design test*/
-    padding-block: 40px;
-    --mask: radial-gradient(44.72px at 50% 60px,#000 99%,#0000 101%) calc(50% - 40px) 0/80px 51% repeat-x, radial-gradient(44.72px at 50% -40px,#0000 99%,#000 101%) 50% 20px/80px calc(51% - 20px) repeat-x, radial-gradient(44.72px at 50% calc(100% - 60px),#000 99%,#0000 101%) 50% 100%/80px 51% repeat-x, radial-gradient(44.72px at 50% calc(100% + 40px),#0000 99%,#000 101%) calc(50% - 40px) calc(100% - 20px)/80px calc(51% - 20px) repeat-x;
-    -webkit-mask: var(--mask);
-    mask: var(--mask);
-    margin-block: -20px;
-    background-color: var(--wave-color);
-}
-
-/*
-.wavy-border{
-    --mask:
-    radial-gradient(33.54px at 50% calc(100% - 45px),#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-    radial-gradient(33.54px at 50% calc(100% + 30px),#0000 99%,#000 101%) 50% calc(100% - 15px)/60px 100% repeat-x;
-  -webkit-mask: var(--mask);
-          mask: var(--mask);
-}
-.wavy-border-inverted{
-      --mask:
-          radial-gradient(33.54px at 50% 45px,#000 99%,#0000 101%) calc(50% - 30px) 0/60px 100%,
-          radial-gradient(33.54px at 50% -30px,#0000 99%,#000 101%) 50% 15px/60px 100% repeat-x;
-        -webkit-mask: var(--mask);
-                mask: var(--mask);
-    
-}
-*/
-
 blockquote {
     padding-inline: 14px;
     margin-inline: 5px;
@@ -262,7 +235,7 @@ pre {
     font-size: medium;
 }
 .footnote-definition p {
-    margin-top: 0px;
+    //margin-top: 0px;
     font-size: medium;    
 }
 
@@ -303,13 +276,10 @@ nav .nav-links a {
 /* Widescreen Styling*/
 @media (min-width:600px){
     body {
-        //padding-inline: 180px;
         display:flex;
-        //padding:30px;
-        //flex-direction: column;
         min-height: 100vh;
         margin: 0 ; 
-        padding-inline: 30px;      
+        padding-inline: 5em;      
     }
     nav {
         display: flex;
@@ -484,6 +454,7 @@ a.gallery-image {
 */
 
 
+/*
 .nav-divider {
     margin: 1.5em auto;
     position: relative;
@@ -511,12 +482,12 @@ a.gallery-image {
       right: -18px;    
     }
   }
-
+*/
 
 // Header divider hr
   hr {
     //margin: 12px 0;
-    margin: 0 0;
+    //margin: 0 0;
     border: 0;
     text-align: center;
     
