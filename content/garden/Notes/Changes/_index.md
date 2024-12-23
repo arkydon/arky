@@ -4,7 +4,7 @@ render = true
 template = "garden/garden-hybrid.html"
 +++
 
-## Changelog
+**Changelog**
 
 1. Redesigned header, changed fonts from Barlow Condensed to Acumin Pro.
 2. Removed lightgallery JS library and made a simple custom lightbox implementation.
@@ -16,7 +16,7 @@ template = "garden/garden-hybrid.html"
    - Partially fixed dark mode colours.
   
 
-## TODO
+**Todo**
 
 1. Fix dark mode
 2. Add like button to blog pages
