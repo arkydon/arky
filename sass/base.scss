@@ -266,7 +266,7 @@ nav .nav-links a {
         display:flex;
         min-height: 100vh;
         margin: 0 ; 
-        padding-inline: 5em;      
+        padding-inline: 4em;      
     }
     nav {
         display: flex;
@@ -278,16 +278,6 @@ nav .nav-links a {
     nav .nav-links a{
         font-size: 1.3em;
     }
-
-    header.site-header{
-        margin-top: 7px;
-        margin-inline: -15px;
-        /* border-radius: 5px; */
-    }
-    .site-header nav a {
-        //font-size: 1.3em;
-        /* padding-bottom: 27px;*/
-    }
     .eleven h1::after{
         top:100px;
     }
@@ -295,16 +285,6 @@ nav .nav-links a {
         width:100%;
         padding-inline: 3em;
         padding-block: 3em;
-    }
-    .wavy{
-        --mask:
-        radial-gradient(44.72px at 60px 50%,#000 99%,#0000 101%) 0 calc(50% - 40px)/51% 80px repeat-y,
-        radial-gradient(44.72px at -40px 50%,#0000 99%,#000 101%) 20px 50%/calc(51% - 20px) 80px repeat-y,
-            radial-gradient(44.72px at calc(100% - 60px) 50%,#000 99%,#0000 101%) 100% 50%/51% 80px repeat-y,
-        radial-gradient(44.72px at calc(100% + 40px) 50%,#0000 99%,#000 101%) calc(100% - 20px) calc(50% - 40px)/calc(51% - 20px) 80px repeat-y;
-      -webkit-mask: var(--mask);
-              mask: var(--mask);
-              background-color: var(--wave-color);
     }
     .garden-section {
         display: grid;
