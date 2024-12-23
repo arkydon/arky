@@ -78,17 +78,12 @@ li.g-links{
 
 //bread
 .breadcrumb-icon {
-    width: 24px;
-    height: 24px;
-    background-image: url('data:image/svg+xml, <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 -1 24 24" stroke-width="2" stroke="rgb(92 149 183)" class="size-6" width="15"><path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" /></svg> ');
+    list-style: none;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="14" width="12.25" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="rgb(84 128 208)" d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg>');
     background-repeat: no-repeat;
-    background-size: 17px;
+    /* background-size: 17px; */
     background-position: left center;
-    padding-left: 1.2em;
-    padding-bottom: 0%;
-    border-bottom: none;
-    padding-top: 0%;
-
+    padding-left: 1em;
     text-decoration: none;
 }
 
