@@ -45,10 +45,6 @@ li.g-changes{
     padding-left: 15px;
     margin-block: 10px;
 }
-.garden-section ul li {
-    //padding-block: 5px;
-    /* margin-block: 0; */
-}
 .garden-section a {
     text-decoration: none;
 }
@@ -67,9 +63,7 @@ li.g-changes{
 }
 .garden-section .panel {
     background-color: var(--garden-section-bg-color);
-    //line-height: 20px;
     padding: 20px;
-    //padding-block-start: 1px;
     margin-block: 10px;
     border-radius: 5px;
 }
@@ -105,11 +99,11 @@ p.bread-bar {
     padding-block-end: 5px;
     padding-block-start: 5px;
     margin-block-end: 20px;
-    //margin-bottom: 2em;
 
-    // Cut off text in breadcrumb if it does'nt fit in one line
-    //white-space: nowrap;
-    //overflow: hidden;
+    /* Cut off text in breadcrumb if it does'nt fit in one line
+    white-space: nowrap;
+    overflow: hidden;
+    */
 }
 
 .truncate {
