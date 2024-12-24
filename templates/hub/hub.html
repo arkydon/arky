@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="title">
+     Hub
+    </h1>
+    <div class="hub-intro"><div>A centralized library of links, media, notes and other things</div></div>
+<div class="hub-section">
+    <div class="panel">
+        <h2 class="notes category">Notes</h2>
+        <ul>
+            <li class="g-now"><a href={{section.path ~ "/Notes/Now"}} >Now</a> </li>
+            <li class="g-mini-blog"><a href={{section.path ~ "/Notes/Mini%20Blog"}} >Mini blog</a> </li>
+            <li class="g-changes"><a href={{section.path ~ "/Notes/Changes"}} >Changelog</a> </li>
+        </ul>
+    </div>
+    
+
+    <div class="panel">
+        <h2 class="web category">Web</h2>
+        <ul>
+            <li class="g-links"><a href={{section.path ~ "/Web/Links"}} >Links</a> </li>
+            <li class="g-blogroll"><a href={{section.path ~ "/Web/Blogroll"}} >Blogroll</a> </li>
+        </ul>
+    </div>
+    <div class="panel">
+        <h2 class="media category">Media</h2>
+        <ul>
+            <li class="g-music"><a href={{section.path ~ "/Media/Music"}} >Music </a> </li>
+            <li class="g-photos"><a href={{section.path ~ "/Media/Photos"}} >Photos </a> </li>
+        </ul>
+    </div>    
+    
+    <div class="panel">
+        <h2 class="software category">Software</h2>
+        <ul>
+            <li class="g-android"> <a href={{section.path ~ "/Software/Android"}} >Android</a> </li>
+            <li class="g-windows"> <a href={{section.path ~ "/Software/Windows"}} >Windows</a> </li>
+        </ul>
+    </div>
+</div>
+{% endblock content %}

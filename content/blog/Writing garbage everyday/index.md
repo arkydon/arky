@@ -20,4 +20,4 @@ So this is the first day of me starting a routine of writing at least one paragr
   [Blog What You Like ❤️](https://brandons-journal.com/post/blog-what-you-like)  
   [Your Own Corner of the Internet](https://sheepdev.xyz/blog/your-own-corner-of-the-internet/)
 
-[^2]: [What is a digital garden?](thunknotes.com)
+[^2]: [What is a digital hub?](thunknotes.com)

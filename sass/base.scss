@@ -3,7 +3,7 @@
 @use "fonts/Jost.scss";
 @use "fonts/firasansc.scss";
 @use "header-line.scss";
-@use "garden.scss";
+@use "hub.scss";
 @use "fonts/barlowm.scss";
 @use "fonts/AcuminPro.scss";
 
@@ -244,16 +244,16 @@ nav .nav-links a {
         padding-inline: 3em;
         padding-block: 3em;
     }
-    .garden-section {
+    .hub-section {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 35px;
     }
-    .garden-section ul {
+    .hub-section ul {
         display: grid;
         grid-template-columns: auto;
     }
-    .garden-section .panel {
+    .hub-section .panel {
         background: #d9e6e9;
         border-radius: 7px;
         padding-inline: 30px;
@@ -279,7 +279,7 @@ nav .nav-links a {
    }
 
     @media (prefers-color-scheme: dark) {
-        .garden-section .panel { 
+        .hub-section .panel { 
             background: #3d3241;
         }
     } 
