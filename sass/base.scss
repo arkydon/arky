@@ -253,13 +253,6 @@ nav .nav-links a {
         display: grid;
         grid-template-columns: auto;
     }
-    .hub-section .panel {
-        background: #d9e6e9;
-        border-radius: 7px;
-        padding-inline: 30px;
-        padding-block: 15px;
-        margin-block: 12px;
-    }
     .nav-links {
         grid-template-columns: 1fr;
         align-self: center;
@@ -277,19 +270,6 @@ nav .nav-links a {
    .header-text {
         margin-bottom: 40px;
    }
-   /*
-    @media (prefers-color-scheme: dark) {
-        .hub-section .panel { 
-            background: #3d3241;
-        }
-    } 
-    */
-    
-    /*
-    footer {
-        display: none;
-    }
-    */
 }
 @media screen and (min-width:900px){
     body{
