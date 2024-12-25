@@ -220,12 +220,12 @@ nav .nav-links a {
 }
 
 /* Widescreen Styling*/
-@media (min-width:600px){
+@media screen and (min-width:600px){
     body {
         display:flex;
         min-height: 100vh;
         margin: 0 ; 
-        padding-inline: 4em;      
+        padding-inline: 3em;      
     }
     nav {
         display: flex;
@@ -277,19 +277,28 @@ nav .nav-links a {
    .header-text {
         margin-bottom: 40px;
    }
-
+   /*
     @media (prefers-color-scheme: dark) {
         .hub-section .panel { 
             background: #3d3241;
         }
     } 
+    */
+    
     /*
     footer {
         display: none;
     }
     */
 }
-
+@media screen and (min-width:900px){
+    body{
+        padding-inline: 5em;
+    }
+    section.section {
+        padding-inline: 4em;
+    }
+}
 /* ----------- Dark Mode -------------- */
 @media (prefers-color-scheme: dark) {
     body{

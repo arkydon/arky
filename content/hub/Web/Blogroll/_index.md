@@ -29,10 +29,10 @@ Table of Contents
 * [rex!](https://rexbarrett.com/posts)
 * [Sara Joy](https://sarajoy.dev/basic/blog/)
 * [Flamed Fury](https://flamedfury.com/)
-* https://sleeplessmind.info/writings/
+* [sleeplessmind](https://sleeplessmind.info/writings/)
 
 #### Tech
 > Mostly tech oriented web spaces
-* https://mbuffett.com/posts/
+* [Marcus' Blog](https://mbuffett.com/posts/)
 * [Alicia Sykes](https://www.aliciasykes.com/blog)
 * [Coders Block](https://codersblock.com/) (great web dev writings)
