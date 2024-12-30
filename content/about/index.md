@@ -15,7 +15,7 @@ template = "blog-page.html"
 -->
 
 {{ table(class="table-about", body=[
-    ["Name:", "Arkydon Lyngdoh"],
+    ["Name:", "Arky Lyngdoh"],
     ["Location:", "Shillong"],
     ["DOB:", "22nd Nov"]
 ]) }}

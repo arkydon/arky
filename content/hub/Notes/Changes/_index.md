@@ -8,7 +8,8 @@ template = "hub/hub-hybrid.html"
 
 1. Redesigned header, changed fonts from Barlow Condensed to Acumin Pro.
 2. Removed lightgallery JS library and made a simple custom lightbox implementation.
-3. Added email link to the footer.
+3. - Added email link to the footer.
+   - Changed Opengraph image
 4. Replaced Meowth icon with a better favicon.
 5. Changed Hub _section_ design.
 6. - Fix margin spacing, list bullet image  being misaligned, footer margins. 
@@ -21,6 +22,7 @@ template = "hub/hub-hybrid.html"
    - Changed header pic.
 9. - Tweaked breadcrumb design
    - Created shortcode for <table>
+   - Added "Defualt apps of 2024" to Hub/Android
 
 **Todo**
 

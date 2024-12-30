@@ -4,8 +4,7 @@ date = 2021-08-11
 +++
 
 
-This is a non-exhaustive list of some android apps that I use.
-
+*This is a non-exhaustive list of some android apps that I use.*
 <!-- more -->
 
 #### Editing : 

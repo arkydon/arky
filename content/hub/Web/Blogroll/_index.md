@@ -36,3 +36,5 @@ Table of Contents
 * [Marcus' Blog](https://mbuffett.com/posts/)
 * [Alicia Sykes](https://www.aliciasykes.com/blog)
 * [Coders Block](https://codersblock.com/) (great web dev writings)
+
+*Edited: Dec '24*
