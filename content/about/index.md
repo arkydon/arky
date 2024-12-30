@@ -7,11 +7,22 @@ template = "blog-page.html"
 
 
 <!-- ## Bio -->
-* Full Name - Arkydon Lyngdoh
+
+<!-- * Full Name - Arkydon Lyngdoh
 * DoB - 22nd Nov
 * Location - Shillong
 * Introvert, chronically online, attention seeker, paranoid
+-->
+
+{{ table(class="table-about", body=[
+    ["Name:", "Arkydon Lyngdoh"],
+    ["Location:", "Shillong"],
+    ["DOB:", "22nd Nov"]
+]) }}
+
 ----
+
+
 ## Preferences
 {% details(summary="Likes") %}
 * Things related to Astronomy: Comets, meteors 🌠, solar activity ☀️

@@ -14,11 +14,13 @@ template = "hub/hub-hybrid.html"
 6. - Fix margin spacing, list bullet image  being misaligned, footer margins. 
    - Changed bullet styling in Hub section page. 
    - Partially fixed dark mode colours.
+   - Created shortcode for <details>
 7. Renamed **Garden** section to **Hub**.  
 8. - Redesigned header.
    - Changed hr design.
    - Changed header pic.
-
+9. - Tweaked breadcrumb design
+   - Created shortcode for <table>
 
 **Todo**
 

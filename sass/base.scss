@@ -447,8 +447,14 @@ details[open] > summary {
     margin-block: 0;
 }
 
-// ------------------
-
-.title {
-    //text-align: center;
+// -------Table Shortcode-----------
+table.table-about {
+    border-collapse: collapse;
+    margin-block-start: 5px;
 }
+table.table-about td {
+    padding-inline-end: 1em;
+    /* border: 1px solid #393939; */
+    /* border-collapse: collapse; */
+}
+//----------------
