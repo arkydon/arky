@@ -32,7 +32,7 @@
 
         {# Display posts for each tag #}
         {% for tag in sorted_tags %}
-            <h2 class="tag-heading">{{ tag | capitalize }}</h2>
+            <p class="tag-heading">{{ tag | capitalize }}</p>
             <ul class="blog-listing">
                 {% for page in section.pages %}
                     {% if page.taxonomies and page.taxonomies.tags and tag in page.taxonomies.tags %}
