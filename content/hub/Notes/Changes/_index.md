@@ -22,7 +22,9 @@ template = "hub/hub-hybrid.html"
    - Changed header pic.
 9. - Tweaked breadcrumb design
    - Created shortcode for <table>
-   - Added "Defualt apps of 2024" to Hub/Android
+   - Added "Default apps of 2024" to Hub/Android
+   - Added an entry to Hub/Photos
+   - Added tags to site and changed template of Hub/Photos to separate posts by tags
 
 **Todo**
 
