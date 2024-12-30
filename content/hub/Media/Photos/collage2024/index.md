@@ -1,5 +1,5 @@
 +++
-title = "2024 mental year in review collage"
+title = "Collage of my 2024 mental state in review"
 date = 2024-12-30
 
 [taxonomies]
