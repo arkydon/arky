@@ -155,6 +155,14 @@ img.pict {
 	height: 20%;	
 	margin-left: 40%;
 }
+
+img.image {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 0px 4px 0px #979797;
+    /* margin-left: 40%; */
+}
+
 img.graphik {
 	width:15%; 
 	float:left;
@@ -162,7 +170,7 @@ img.graphik {
 	margin: 0;
 }
 figure:has(img) {
-    margin: 0; //Horse
+    //margin: 0; //What??
 }
 img.banner {
     width: 100%;

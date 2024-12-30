@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="panel">
+        {# Breadcrumbs #}
+        <p class="bread-bar">
+            {% set breadcrumb = section.components | slice(end=-1) | join(sep='/') %}
+            <a class="breadcrumb-icon" href="{{  "/" ~ section.components[0]}}"> 
+                {{section.components[0] | capitalize}}
+            </a>         
+            <span> / {{section.components[1]|capitalize}} / {{section.components|last|capitalize}}</span>
+        </p>
+
+        <h1 class="title">
+            {{ section.title }}
+        </h1>
+
+        {# First collect all unique tags #}
+        {% set all_tags = [] %}
+        {% for page in section.pages %}
+            {% if page.taxonomies and page.taxonomies.tags %}
+                {% for tag in page.taxonomies.tags %}
+                    {% if tag not in all_tags %}
+                        {% set_global all_tags = all_tags | concat(with=tag) %}
+                    {% endif %}
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+
+        {# Sort tags #}
+        {% set sorted_tags = all_tags | sort %}
+
+        {# Display posts for each tag #}
+        {% for tag in sorted_tags %}
+            <h2 class="tag-heading">{{ tag | capitalize }}</h2>
+            <ul class="blog-listing">
+                {% for page in section.pages %}
+                    {% if page.taxonomies and page.taxonomies.tags and tag in page.taxonomies.tags %}
+                        <li>
+                            <a href="{{ page.permalink }}">{{ page.title }}</a>
+                            {% if page.date %}
+                                <div class="blog-page-date">{{ page.date | date(format="%B %d, %Y") }}</div>
+                            {% endif %}
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% endfor %}
+    </div>
+{% endblock content %}
