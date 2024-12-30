@@ -3,7 +3,7 @@ title = "Irridescent Clouds"
 date = 2021-08-11
 
 [taxonomies]
-tags = ["Snaps"]
+tags = ["snaps"]
 
 +++
 
