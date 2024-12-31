@@ -26,7 +26,7 @@ template = "hub/hub-hybrid.html"
    - Added "Default apps of 2024" to Hub/Android
    - Added an entry to Hub/Photos
    - Added tags to site and changed template of Hub/Photos to separate posts by tags
-10. Added an indicator on Navigation Links to show which section page is active.
+10. Implemented an indicator to Navigation Links to show which section page is active.
 
 **Todo**
 
@@ -36,3 +36,4 @@ template = "hub/hub-hybrid.html"
 4. Add a widget or dashboard to homepage
 5. ~Rename “Garden” to something better~ 
 6. Replace Cloudflare Analytics with something else.
+7. Switch to another SSG that is more popular because it will be much easier to find out how to implement something.

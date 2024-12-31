@@ -8,14 +8,13 @@ template = "hub/hub-hybrid.html"
 
 - Playing Pokemon Black Pearl Emerald.
 - Redesigning and tweaking my website yet again.
-- Listening to Christmas songs on repeat.
 
 **Planning**
 
-- Javascript
-- Make another Pokemon ROM hack
-- Read more books
-- 
+- Javascript.
+- Make another Pokemon rom hack.
+- Read more ebooks.
+- Check out other, more popular static site engines that I might switch this site to, because it will be much easier to find out how to implement something with a tool that most people use.
 
 **Finished**
 
@@ -26,4 +25,3 @@ template = "hub/hub-hybrid.html"
 **Paused**
 
 - Dota
--
