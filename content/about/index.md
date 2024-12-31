@@ -1,13 +1,13 @@
 +++
-title = "About"
+title = ""
 render = true
 template = "blog-page.html"
 +++
 
 {{ table(class="table-about", body=[
-    ["Name:", "Arky Lyngdoh"],
-    ["Location:", "Shillong"],
-    ["DOB:", "22nd Nov"]
+    ["Name", ":","Arky Lyngdoh"],
+    ["Location", ":","Shillong"],
+    ["DoB", ":","22/12/1990"]
 ]) }}
 
 ----
