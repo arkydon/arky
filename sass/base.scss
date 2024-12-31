@@ -26,7 +26,7 @@ body {
 }
 
 section.section {
-    //min-height: 70vh;
+    min-height: 70vh;
 }
 
 /* Arrange nav items with space between them*/
@@ -252,6 +252,8 @@ nav .nav-links a {
 @media screen and (min-width:600px){
     body {
         //display:flex;
+        
+        /* This code causes weird zoom outs when swtitching from wide to small screen
         min-height: 100vh;
         margin: 0 ; 
         padding-inline: 3em;    
@@ -260,6 +262,12 @@ nav .nav-links a {
         grid-template-columns: 8em 40em;
 
         grid-column-gap: 15px;
+        */
+        display: grid;
+        grid-template-columns: 1fr 4fr;
+    }
+    h1.title-header a {
+        display: block;
     }
     nav {
         display: flex;
@@ -286,7 +294,7 @@ nav .nav-links a {
         top:100px;
     }
     section.section{
-        width:100%;
+        //width:100%;
         padding-inline: 3em;
         padding-block: 3em;
     }
@@ -338,7 +346,7 @@ nav .nav-links a {
         padding-inline: 5em;
     }
     section.section {
-        padding-inline: 4em;
+        padding-inline: 5em;
     }
 }
 /* ----------- Dark Mode -------------- */
