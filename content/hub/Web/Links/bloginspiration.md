@@ -1,5 +1,5 @@
 +++
-title = "Collection of links to articles that will inspire you to write a blog or make your own website"
+title = "Articles that will inspire you to write a blog or make your own website"
 date = 2024-12-21
 +++
 

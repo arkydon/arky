@@ -1,11 +1,11 @@
 @use "variables.scss";
-@use "fonts/barlowc.scss";
 @use "fonts/Jost.scss";
-@use "fonts/firasansc.scss";
 @use "header-line.scss";
 @use "hub.scss";
-@use "fonts/barlowm.scss";
 @use "fonts/AcuminPro.scss";
+//@use "fonts/firasansc.scss";
+//@use "fonts/barlowm.scss";
+//@use "fonts/barlowc.scss";
 
 
 html {
@@ -144,6 +144,7 @@ ul.homepage-blog-listing, ul.blog-listing {
 }
 ul.homepage-blog-listing li, ul.blog-listing li{
     list-style-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" height="10" width="6.25" viewBox="0 0 320 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="%23f03838" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>');
+    padding-block-end: 10px;
 }
 /* Styling for unordered lists*/
 ol {
