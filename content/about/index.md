@@ -4,16 +4,6 @@ render = true
 template = "blog-page.html"
 +++
 
-
-
-<!-- ## Bio -->
-
-<!-- * Full Name - Arkydon Lyngdoh
-* DoB - 22nd Nov
-* Location - Shillong
-* Introvert, chronically online, attention seeker, paranoid
--->
-
 {{ table(class="table-about", body=[
     ["Name:", "Arky Lyngdoh"],
     ["Location:", "Shillong"],
