@@ -55,7 +55,8 @@ template = "blog-page.html"
 {% details(summary="Colours") %}
 * Sepia 
 * Peach Fuzz
-* Salmon.
+* Salmon
+* Pastels
 {% end %}
 
 
@@ -85,6 +86,8 @@ template = "blog-page.html"
 * Interstellar
 * Cat in the hat
 * Melancholia
+* Independence day
+* War of the worlds
 {% end %}
 
 
@@ -100,7 +103,8 @@ template = "blog-page.html"
 {% details(summary="Pokemon")%}
 * Copperrajah 
 * Breloom
-* Sneasel
+* Zangoose
+* Meganium
 {% end %}
 
 <!--
