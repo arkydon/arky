@@ -26,6 +26,7 @@ template = "hub/hub-hybrid.html"
    - Added "Default apps of 2024" to Hub/Android
    - Added an entry to Hub/Photos
    - Added tags to site and changed template of Hub/Photos to separate posts by tags
+10. Added an indicator on Navigation Links to show which section page is active.
 
 **Todo**
 
