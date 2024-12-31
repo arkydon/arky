@@ -71,7 +71,11 @@ a {
 a:active {
     color: rgb(171, 207, 130);
 }
-
+.nav-links a.active {
+    font-weight: bold;
+    /* color: #ff0000; */
+    /* text-decoration: underline; */
+}
 h1,h2,h3,h4,h5,h6{
     color: var(--h-colors);
     font-weight: 400;
